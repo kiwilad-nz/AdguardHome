@@ -231,11 +231,11 @@ filters:
     name: Lightswitch05
     id: 1675418348
   - enabled: true
-    url: https://github.com/kiwilad-nz/kiwilad/raw/main/AdguardHome/Deny/agh-regex-denylist.txt
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Deny/agh-regex-denylist
     name: KiwiLAD (Regex)
     id: 1675418363
   - enabled: true
-    url: https://github.com/kiwilad-nz/kiwilad/raw/main/AdguardHome/Deny/agh-tld-denylist.txt
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Deny/agh-tld-denylist
     name: KiwiLAD (TLD)
     id: 1675418364
   - enabled: true
@@ -271,70 +271,22 @@ filters:
     name: OISD Blocklist Basic
     id: 1678383957
   - enabled: true
-    url: https://raw.githubusercontent.com/kiwilad-nz/kiwilad/main/AdguardHome/Deny/agh-dns-denylist.txt
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Deny/agh-dns-denylist
     name: KiwiLAD (DNS)
     id: 1678383958
   - enabled: true
-    url: https://raw.githubusercontent.com/kiwilad-nz/kiwilad/main/AdguardHome/Deny/agh-hosts-denylist.txt
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Deny/agh-hosts-denylist
     name: KiwiLAD (Hosts)
     id: 1678383960
 whitelist_filters:
-  - enabled: false
-    url: https://raw.githubusercontent.com/Ultimate-Hosts-Blacklist/whitelist/master/domains.list
-    name: Ultimate-Hosts-Whitelist
-    id: 1637157562
-  - enabled: false
-    url: https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt
-    name: AnudeepND
-    id: 1637157563
-  - enabled: false
-    url: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Whitelists/Whitelist
-    name: ShadowWhisperer
-    id: 1637157564
-  - enabled: false
-    url: https://raw.githubusercontent.com/mmotti/adguard-home-filters/master/whitelist.txt
-    name: MMotti
-    id: 1637157571
-  - enabled: false
-    url: https://raw.githubusercontent.com/ookangzheng/blahdns/master/hosts/whitelist.txt
-    name: Ookangzheng (BlahDNS)
-    id: 1658385502
-  - enabled: false
-    url: https://gist.githubusercontent.com/captainhook/9eb4132d6e58888e37c6bc6c73dd4e60/raw/d5a9ee1f720a431ddc8021540181b53f9864760f/SpotifyWhitelist
-    name: CaptainHook (Spotify)
-    id: 1658772950
-  - enabled: false
-    url: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/FalukorvList.txt
-    name: Falukorv
-    id: 1658772951
-  - enabled: false
-    url: https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/optional-list.txt
-    name: AnudeepND (Optional)
-    id: 1660941698
   - enabled: true
     url: https://raw.githubusercontent.com/im-sm/Pi-hole-Torrent-Blocklist/main/all-torrent-trackres.txt
     name: Sakib Mahmud (Torrent Trackers)
     id: 1660941699
-  - enabled: false
-    url: https://raw.githubusercontent.com/slyfox1186/pihole-regex/main/domains/whitelist/exact-whitelist.txt
-    name: Slyfox1186
-    id: 1662580806
-  - enabled: false
-    url: https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/issues.txt
-    name: Adguard (Issues)
-    id: 1663189369
   - enabled: true
     url: https://raw.githubusercontent.com/boutetnico/url-shorteners/master/list.txt
     name: Boutetnico (URL-Shorteners)
     id: 1663189370
-  - enabled: false
-    url: https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/sensitive.txt
-    name: Adguard (Sensitive)
-    id: 1663189371
-  - enabled: false
-    url: https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/windows.txt
-    name: Adguard (Windows)
-    id: 1663189372
   - enabled: true
     url: https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/referral-sites.txt
     name: AnudeepND (Referral-Sites)
@@ -343,62 +295,18 @@ whitelist_filters:
     url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/whitelist.txt
     name: HaGeZi
     id: 1663189378
-  - enabled: false
-    url: https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/android.txt
-    name: Adguard (Android)
-    id: 1663189379
   - enabled: true
     url: https://raw.githubusercontent.com/TheSmashy/O365Whitlist/main/domains/whitelist.txt
     name: TheSmashy (O365)
     id: 1663189381
-  - enabled: false
-    url: https://raw.githubusercontent.com/rafagale/adguard-whitelist/master/whitelist.txt
-    name: Rafagale
-    id: 1663189389
-  - enabled: false
-    url: https://raw.githubusercontent.com/tsouza85/adguard-home-filters/main/whitelist-filters.txt
-    name: Tsouza85
-    id: 1663189390
   - enabled: true
     url: https://raw.githubusercontent.com/nextdns/click-tracking-domains/main/domains
     name: NextDNS (Affiliate Links)
     id: 1663189391
-  - enabled: false
-    url: https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/mac.txt
-    name: Adguard (Mac)
-    id: 1663189396
-  - enabled: false
-    url: https://raw.githubusercontent.com/TheSmashy/my-pihole-lists/master/whitelist.txt
-    name: TheSmashy
-    id: 1663189397
-  - enabled: false
-    url: https://raw.githubusercontent.com/FaserF/adguardhome_lists/master/whitelist
-    name: FaserF
-    id: 1663189398
-  - enabled: false
-    url: https://raw.githubusercontent.com/privacy-protection-tools/dead-horse/master/anti-ad-white-list.txt
-    name: Privacy-Protection-Tools (Anti-Ad)
-    id: 1663189422
-  - enabled: false
-    url: https://raw.githubusercontent.com/raghavdua1995/DNSlock-PiHole-whitelist/master/whitelist.list
-    name: Raghavdua1995
-    id: 1663189424
   - enabled: true
     url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/whitelist-referral.txt
     name: HaGeZi (Referral)
     id: 1663189425
-  - enabled: false
-    url: https://raw.githubusercontent.com/deletescape/noads/master/lists/unbreak.txt
-    name: DeleteScape
-    id: 1663189426
-  - enabled: false
-    url: https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/CombinedWhitelists/CombinedWhiteLists.txt
-    name: DeathByBandaid
-    id: 1663189428
-  - enabled: false
-    url: https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/official-domains.txt
-    name: Dogino (Discord/Steam/Twitch)
-    id: 1674211398
   - enabled: true
     url: https://blocklistproject.github.io/Lists/torrent.txt
     name: TheBlocklistProject (Torrent)
@@ -416,11 +324,11 @@ whitelist_filters:
     name: NextDNS (File Hosting)
     id: 1675418351
   - enabled: true
-    url: https://github.com/kiwilad-nz/kiwilad/raw/main/AdguardHome/Allow/agh-hosts-allowlist.txt
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/agh-hosts-allowlist
     name: KiwiLAD (Hosts)
     id: 1675418357
   - enabled: true
-    url: https://raw.githubusercontent.com/kiwilad-nz/kiwilad/main/AdguardHome/Allow/agh-regex-allowlist.txt
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/agh-regex-allowlist
     name: KiwiLAD (Regex)
     id: 1678383959
 user_rules:
