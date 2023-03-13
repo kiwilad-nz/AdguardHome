@@ -1,0 +1,24 @@
+## Punycode
+/.*(XN--).*/
+
+## Ads
+/^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]/
+/^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]/
+/^adim(age|g)s?[0-9]*[_.-]/
+/^advert(s|is(ing|ements?))?[0-9]*[_.-]/
+/^aff(iliat(es?|ion))?[_.-]/
+/^mads\./
+
+## Telemetry
+/^(.+[_.-])?telemetry[_.-]/
+/^analytics?[_.-]/
+/^banners?[_.-]/
+/^beacons?[0-9]*[_.-]/
+/^stat(s|istics)?[0-9]*[_.-]/
+/^count(ers?)?[0-9]*[_.-]/
+
+## Tracking
+/^pixels?[-.]/
+/^adtrack(er|ing)?[0-9]*[_.-]/
+
+## Other

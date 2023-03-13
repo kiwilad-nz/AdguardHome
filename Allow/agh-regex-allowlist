@@ -1,0 +1,183 @@
+## www subdomains and host domains of countries (not subdomains other than "www")
+# New Zealand
+/(www\.|^)[\w\d\-]*\.((co|org|gov|govt|ac|net|com)\.)?nz$/
+# Austrailia
+/(www\.|^)[\w\d\-]*\.((co|org|gov|govt|ac|net|com)\.)?au$/
+
+## email (unbreaks most emails)
+# (matches any domain that ends with "mail/s" that allows for a trailing 1-3 digit and/or "-" that is a 2-3 letter TLD)
+/^.*mail(|s)[\d\-]{0,3}\.((co|org|gov|govt|ac|net|com)\.)?[\w]{2,3}$/
+# (matches any subdomain that contains "mail" that is a 2-3 letter TLD)
+/^(.*(\-|\.))?[\w\d\-]{0,3}mail.*([\w\d\-]*\.){1}((co|org|gov|govt|ac|net|com)\.)?[\w]{2,3}$/
+
+## Image Hosting (unbreaks most images from loading)
+# (matches any domain that ends with "image/s or "img/s" that is a 2-3 letter TLD)
+/^.*(image(|s)|img(|s))[\d\-]{0,3}\.((co|org|gov|govt|ac|net|com)\.)?[\w]{2,3}$/
+# (matches any subdomain that contains "image/s or "img/s" that allows for a trailing 1-3 digit and/or "-" that is a 2-3 letter TLD)
+/^(.*(\-|\.))?(image(|s)|img(|s))((\-|\.).*)?\.([\w\d\-]*\.){1}((co|org|gov|govt|ac|net|com)\.)?[\w]{2,3}$/
+
+## Blogs/Forums/Communities/Boards
+# (matches any domain that ends with "forum/s", "communit/y/ies" or "board/s" that is a 2-3 letter TLD)
+/^.*(blog(|s)|forum(|s)|communit(y|ies)|board(|s))\.((co|org|gov|govt|ac|net|com)\.)?[\w]{2,3}$/
+# (matches any subdomain that contains "blog/s", "forum/s" or "communit/y/ies" that is a 2-3 letter TLD)
+/^(.*(\-|\.))?(blog(|s)|forum(|s)|communit(y|ies)|board(|s))((\-|\.).*)?\.([\w\d\-]*\.){1}((co|org|gov|govt|ac|net|com)\.)?[\w]{2,3}$/
+
+## Links & Redirectors
+# (matches any domain that ends with "-" and "link/s" or "redirect/s/or" that allows for a trailing 2-3 digit and/or "-")
+/^.*\-(link(|s)|redirect(|s|or))\.((co|org|gov|govt|ac|net|com)\.)?[\w]{2,}$/
+# (matches any subdomain that contains "link/s" or "redirect/s/or" that allows for a trailing 2-3 digit and/or "-")
+/^(.*(\-|\.))?(link(|s)|redirect(|s|or))((\-|\.).*)?\.([\w\d\-]*\.){1}((co|org|gov|govt|ac|net|com)\.)?[\w]{2,3}$/
+
+## API Calls
+# (matches any domain that ends with "api/s" that allows for a trailing 1-3 digit and/or "-" that is a 2-3 letter TLD)
+# /.*api(|s)[\-\d]{0,3}\.((co|org|gov|govt|ac|net|com)\.)?[\w]{2,3}$/
+# (matches any subdomain that contains "api/s" that allows for a trailing 1-3 digit and/or "-" that is a 2-3 letter TLD)
+# /^(.*(\-|\.))*api(|s)[\-\d]{0,3}((\-|\.).*){1}\.[\w]{2,3}$/
+
+## Content Delivery Networks (CDNs)
+#/(.|^)cloudflare\.com$/
+#/(.|^)akamaized\.net$/
+#/(.|^)akamaihd\.net$/
+#/(.|^)akamaiedge\.net$/
+#/(.|^)edgecastcdn\.net$/
+#/(.|^)fastly\.net$/
+#/(.|^)llcdn\.net$/
+#/(.|^)googleusercontent\.com$/
+#/(.|^)cdnjs\.cloudflare\.com$/
+#/(.|^)hwcdn\.net
+#/(.|^)cdn\.jsdelivr\.net$/
+#/(.|^)amazonaws\.com$/
+#/(.|^)cloudfront\.net$/
+#/(.|^)cdn\.optimizely\.com$/
+#/(.|^)stackpathcdn\.com$/
+#/(.|^)incapsula\.com$/
+#/(.|^)imgix\.net$/
+#/(.|^)cdn\.jsdelivr\.net$/
+#/(.|^)wp\.com$/
+#/(.|^)cloudinary\.com$/
+#/(.|^)bootstrapcdn\.com$/
+#/(.|^)yimg\.com$/
+#/(.|^)googleapis\.com$/
+#/(.|^)azureedge\.net$/
+#/(.|^)cdnjs\.com$/
+#/(.|^)jquery\.com$/
+#/(.|^)fonts\.googleapis\.com$/
+#/(.|^)vidyocdn\.com|maxcdn\.com$/
+#/(.|^)cdn77\.com$/
+#/(.|^)res\.cloudinary\.com$/
+#/(.|^)mapbox\.com$/
+#/(.|^)cdn\.ckeditor\.com$/
+#/(.|^)cdn\.segment\.com$/
+#/(.|^)googleapis\.com$/
+#/(.|^)staticflickr\.com$/
+#/(.|^)cdnjs\.cloudflare\.com$/
+#/(.|^)static\.wp\.com$/
+#/(.|^)fast\.wistia\.net$/
+#/(.|^)fastly-insights\.com$/
+#/(.|^)cdn\.discordapp\.com$/
+#/(.|^)cdn\.ampproject\.org$/
+#/(.|^)cdn\.sstatic\.net$/
+#/(.|^)assets\.adobedtm\.com$/
+#/(.|^)cdn\.hubspot\.net$/
+#/(.|^)cdnjs\.cloudflare\.com$/
+#/(.|^)m\.stripe\.com$/
+#/(.|^)cdn\.vox-cdn\.com$/
+#/^cdn\.(bootcss|cloudflare|datatables|discordapp|embed|embedly|materialdesignicons|mathjax|plyr|samsungcloudsolution|signal|staticfile)\.(com|io|ly|net|org)$/
+
+## Google
+/^(www\.)?google\.(co\.)?\.[\w]{2,3}$/
+/^adservice\.google\.[\w]+$/
+/^clients[0-9]\.google\.com$/
+# (Allow known essential widget service)
+/^beacons[0-9]*\.gvt[0-9]+\.com$/
+/^(calendar|developer(|s)|dns|docs|home|inbox|clients[0-9]*|mail|meet|pay(|ments)|photos|sites|time|wallet|workspace|www)\.google\.com$/
+
+## Amazon
+/^(www\.)?amazon\.(co\.)?\.[\w]{2,3}$/
+
+## Whatsapp
+/e([0-9]{0,2})\.whatsapp\.net$/
+
+## Apple - Main domains for a good chunk of legitimate iOS services
+#/(\.|^)apple-(cloudkit|livephotoskit)\.com$/
+#/^(appattest|appleid|apps|audiocontentdownload|bpapi|business|captive|cdn-apple|certs|configuration|crl|cssubmissions|deviceenrollment|diagassets|fba|gc|gdmf|gg.*|gs(|[ap1]*?)|humb|identity|idmsa|i(|g|profiles|su|tunes|work)|mdmenrollment|mesu|oscdn|oscp|osrecovery|ppq|push|radarsubmissions|school|serverstatus|skl|suconfig|sw(|cdn|dist|download|post|scan)|sylvan|sym[b-d]+?|tbsc|valid|www|axm-app|deviceservices-external|gnf-mdn|gnf-mr|lcdn-(locator|registration)|sq-device|time(|-ios|-macos)|xp(|-cdn))\.apple\.com$/
+#/^(devimages|xp-cdn|playgrounds(|-assets))-cdn\.apple\.com$/
+#/^(download.developer|ns.itunes|static.ips|vpp.itunes)\.apple\.com$/
+#/^(ocsp[0-9]*?\.(apple|apzones|digicert|entrust|verisign)\.(com|net))$/
+#/^axm-adm-|(adm|mdm|enroll|scep)\.apple\.com$/
+#/^gsp-ssl\.ls(\.|-)apple\.com(|\.akadns\.net)$/
+#/(\.|^)apple\.com$/
+#/(\.|^)icloud\.com$/
+#/(\.|^)mzstatic\.com$/
+
+## DropBox
+/^ns[12]?\.dropbox\.com$/
+
+## Epic Games - Essential Domains for authentication during user login and other services such as purchasing/unlocking games to your user library
+/^(account|accts|catalog|entitlement|eulatracking|lightswitch|metric|priceengine)-public-service-prod[0-9]*?\.(ak|ol)\.epicgames\.com$/
+
+## Facebook
+/(\.|^)(accountkit|messenger)\.com$/
+/(\.|^)(connect\.)facebook\.(com|net)$/
+/^scontent-(atl3|lhr3|mia3|ort2)-1\.xx\.fbcdn\.net$/
+/^[0-6]+?-edge-chat\.facebook\.com$/
+/(\.|^)scontent\.xx\.fbcdn\.net$/
+
+## Torrents
+/.*torrent(|s).*/
+
+## GitHub
+/^(github(|\.githubassets)\.(com|io))$/
+
+## Microsoft OneDrive, Azure, Windows Esentials updates, other, xboxlive (required for saves to the cloud)
+/(www\.|^)((go\.|)microsoft|windows)\.com$/
+/(\.|^)1drv\.ms$/
+/(\.|^)windowsupdate\.com$/
+/^(attestation|cert\.mgt|def-vef|(device(|\.auth))|eds|help\.ui|licensing|notify|title(|\.(auth|mgt))|user|xflight|www|xboxexperiencesprod/\.experimentation|xkms|xsts\.auth)\.xboxlive\.com$/
+/^(csp|c\.s|devicelistenerprod)(-|\.)microsoft\.com$/
+/^(edge|fs|mobile\.pipe\.aria|msedge\.api.\cdp|officecdnmac|officeclient|support|teams|vlscppe|whiteboard|www)\.microsoft\.com$/
+/^(settings|v10\.vortex)-win\.data\.microsoft\.com$/
+/^europe.(cp\.wd|smartscreen(-prod|))\.microsoft\.com$/
+/^microsoft(|online)\.com$/
+/^outlook\.(live|office(|365))\.com$/
+/^v[0-2]+?\.events\.data\.microsoft\.com$/
+
+## Mobile and Tablets
+/^m\.(hotmail|reddit|reuters|twitch|weeklyad.target|yahoo|youtube)\.(com|tv)$/
+
+## Reddit
+/(thumbs\.|^)(reddit(media|static))\.com/
+/(\.|^)([iv]?\.|)redd\.it$/
+/^events-test(|-v2)\.redditmedia\.com$/
+
+## Smart TV's
+/(\.|^)samsungcloudcdn\.com$/
+/(\.|^)samsungotn\.net$/
+/^aic\.(homeprv|service)\.lgtvcommon\.com$/
+/^hbbtv\.(prosieben|redbutton|zdf|ard)\.de$/
+/^otnprd[0-9]+?\.samsungcloudsolution\.net$/
+
+## AdultTime Necessary for the site to deliver non ad content
+/(\.|^)(adulttime|algolianet|react\.gammacdn)\.com$/
+/(\.|^)kosmos-((|assets-)prod)\.react\.gammacdn\.com$/
+/(\.|^)(dns|)algolia(|net)\.(com|io|net)$/
+/^static[0,1,3]+-cms-fame\.gammacdn\.com$/
+/^([a-z0-9]+\.|)(appsync|execute)-api\.us-east-1\.amazonaws\.com$/
+/^(streaming|images[0-9]+)-(fame|hls)\.gammacdn\.com$/
+
+## Spotify
+/^(apresolve|audio2|embed|dealer|global-dealer-ssl|gucl-6.ap|login5|market|mobile-ap|open|play|spclient\.wg|spclient-wg|weblb-wg.dual-gslb)\.spotify\.com$/
+
+## Twitch.tv
+/^(affiliate|app|id(|\.|-(canary|cdn|dev)))\.twitch\.tv$/
+/^live-[\w]{3}\.twitch\.tv$/
+
+## Xbox Live (Microsoft)
+/^(attestation|cert\.mgt|def-vef|eds|help\.ui|licensing|notify|title\.mgt|www|xboxexperiencesprod\.experimentation|xflight|xkms)\.xboxlive\.com$/
+
+## YouTube
+/^(oauthaccountmanager|www|youtubei)\.googleapis\.com$/
+
+## SSL Certificate
+/^crl[3-4]\.digicert\.com$/
+/(\.|^)lencr\.org$/
