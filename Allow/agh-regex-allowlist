@@ -5,28 +5,28 @@
 /(www\.|^)[\w\d\-]*\.((co|org|gov|govt|ac|net|com)\.)?au$/
 
 ## email (unbreaks most emails)
-# (matches any domain that ends with "mail/s" that allows for a leading/trailing 2-3 digit and/or "-" and ends with a 2-3 letter TLD)
-/^.*mail(|s)[\d\-]{0,3}\.((co|org|gov|govt|ac|net|com)\.)?[\w]{2,3}$/
-# (matches any subdomain that contains "mail" that is a 2-3 letter TLD)
-/^(.*(\-|\.))?[\w\d\-]{0,3}mail.*([\w\d\-]*\.){1}((co|org|gov|govt|ac|net|com)\.)?[\w]{2,3}$/
+# (matches any domain that ends with "mail/s" that allows for a trailing 2 digit with or without a "-" that also ends with a 2-3 letter TLD)
+/^.*mail(|s)\-?[\d]{0,2}\.((co|org|gov|govt|ac|net|com)\.)?[\w]{2,3}$/
+# (matches any subdomain that contains "mail" that also ends with a 2-3 letter TLD)
+/^(.*\.)?[\w\d\-]{0,3}mail.*\.([\w\d\-]*\.){1}((co|org|gov|govt|ac|net|com)\.)?[\w]{2,3}$/
 
 ## Image Hosting (unbreaks most images from loading)
-# (matches any domain that ends with "image/s or "img/s" that allows for a leading/trailing 2-3 digit and/or "-" and ends with a 2-3 letter TLD)
-/^.*(image(|s)|img(|s))[\d\-]{0,3}\.((co|org|gov|govt|ac|net|com)\.)?[\w]{2,3}$/
-# (matches any subdomain that contains "image/s or "img/s" that allows for a leading/trailing 2-3 digit and/or "-" and ends with a 2-3 letter TLD)
-/^(.*(\-|\.))?[\d\-]{0,3}(image(|s)|img(|s))[\d\-]{0,3}((\-|\.).*)?\.([\w\d\-]*\.){1}((co|org|gov|govt|ac|net|com)\.)?[\w]{2,3}$/
+# (matches any domain that ends with "image/s or "img/s" that allows for a trailing 2 digit with or without a "-" that also ends with a 2+ letter TLD)
+/^.*(image(|s)|img(|s))\-?[\d]{0,2}\.((co|org|gov|govt|ac|net|com)\.)?[\w]{2,}$/
+# (matches any subdomain that contains "image/s or "img/s" that allows for a leading/trailing 2-3 digit and/or "-" that also ends with a 2+ letter TLD)
+/^(.*\.)?[\d]{0,2}\-?(image(|s)|img(|s))((\-|\.).*)?\.([\w\d\-]*\.){1}((co|org|gov|govt|ac|net|com)\.)?[\w]{2,}$/
 
 ## Blogs/Forums/Communities/Boards
-# (matches any domain that ends with "forum/s", "communit/y/ies" or "board/s" that allows for a leading/trailing 2-3 digit and/or "-" and ends with a 2-3 letter TLD)
-/^.*(blog(|s)|forum(|s)|communit(y|ies)|board(|s))[\d\-]{0,3}\.((co|org|gov|govt|ac|net|com)\.)?[\w]{2,3}$/
-# (matches any subdomain that contains "blog/s", "forum/s" or "communit/y/ies" that allows for a leading/trailing 2-3 digit and/or "-" and ends with a 2-3 letter TLD)
-/^(.*(\-|\.))?[\d\-]{0,3}(blog(|s)|forum(|s)|communit(y|ies)|board(|s))[\d\-]{0,3}((\-|\.).*)?\.([\w\d\-]*\.){1}((co|org|gov|govt|ac|net|com)\.)?[\w]{2,3}$/
+# (matches any domain that ends with "forum/s", "communit/y/ies" or "board/s" that allows for a trailing 2 digit with or without a "-" that also ends with a 2+ letter TLD)
+/^.*(blog(|s)|forum(|s)|communit(y|ies)|board(|s))\-?[\d]{0,2}\.((co|org|gov|govt|ac|net|com)\.)?[\w]{2,}$/
+# (matches any subdomain that contains "blog/s", "forum/s" or "communit/y/ies" that allows for a leading/trailing 2-3 digit and/or "-" that also ends with a 2+ letter TLD)
+/^(.*\.)?[\d]{0,2}\-?(blog(|s)|forum(|s)|communit(y|ies)|board(|s))((\-|\.).*)?\.([\w\d\-]*\.){1}((co|org|gov|govt|ac|net|com)\.)?[\w]{2,}$/
 
 ## Links & Redirectors
-# (matches any domain that ends with "-" and "link/s" or "redirect/s/or" that allows for a leading/trailing 2-3 digit and/or "-" and ends with a 2+ letter TLD)
-/^.*\-(link(|s)|redirect(|s|or))[\d\-]{0,3}\.((co|org|gov|govt|ac|net|com)\.)?[\w]{2,}$/
-# (matches any subdomain that contains "link/s" or "redirect/s/or" that allows for a leading/trailing 2-3 digit and/or "-" and ends with a 2+ letter TLD)
-/^(.*(\-|\.))?[\d\-]{0,3}(link(|s)|redirect(|s|or))[\d\-]{0,3}((\-|\.|).*)?\.([\w\d\-]*\.){1}((co|org|gov|govt|ac|net|com)\.)?[\w]{2,3}$/
+# (matches any domain that ends with "-" and "link/s" or "redirect/s/or" that allows for a trailing 2 digit with or without a "-" that also ends with a 2+ letter TLD)
+/^.*\-(link(|s)|redirect(|s|or))\-?[\d]{0,2}\.((co|org|gov|govt|ac|net|com)\.)?[\w]{2,}$/
+# (matches any subdomain that contains "link/s" or "redirect/s/or" that allows for a leading/trailing 2-3 digit and/or "-" that also ends with a 2+ letter TLD)
+/^(.*\.)?[\d]{0,2}\-?(link(|s)|redirect(|s|or))[\d\-]{0,3}((\-|\.|).*)?\.([\w\d\-]*\.){1}((co|org|gov|govt|ac|net|com)\.)?[\w]{2,}$/
 
 ## Content Delivery Networks (CDNs)
 #/(.|^)cloudflare\.com$/
