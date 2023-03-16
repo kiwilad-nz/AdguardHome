@@ -8,7 +8,7 @@
 # (matches any domain that ends with "mail/s" that allows for a trailing 1-2 digit with or without a "-" that also ends with a 2-3 letter TLD)
 /^.*mail(|s)\-?[\d]{0,2}\.((co|org|gov|govt|ac|net|com)\.)?[\w]{2,3}$/
 # (matches any subdomain that contains "mail" that allows for a leading 1-3 letters, digits with or without a "-" that also ends with a 2-3 letter TLD)
-//^(.*\.)?[\w\d\-]{0,3}mail.*\.[\w]{2,3}$/
+/^(.*\.)?[\w\d\-]{0,3}mail.*\.[\w]{2,3}$/
 
 ## Image Hosting (unbreaks most images from loading)
 # (matches any domain that ends with "image/s or "img/s" that allows for a trailing 1-2 digit with or without a "-" that also ends with a 2+ letter TLD)
