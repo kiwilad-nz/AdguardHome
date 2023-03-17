@@ -1,34 +1,36 @@
-## www subdomains and host domains of countries (not subdomains other than "www")
-# New Zealand
+# New Zealand Domains
+# This rule will allow only primary domains or www subdomains of the specified country TLD
 /(www\.|^)[\w\d\-]*(\.(co|org|gov|govt|ac|net|com))?\.nz$/
-# Austrailia
+
+# Austrailia Domains
+# This rule will allow only primary domains or www subdomains of the specified country TLD
 /(www\.|^)[\w\d\-]*(\.(co|org|gov|govt|ac|net|com))?\.au$/
 
-## email (unbreaks most emails)
-# (matches any domain that ends with "mail/s" that allows for a trailing 1-2 digit with or without a "-" that also ends with a 2-3 letter TLD)
-/^.*mail(|s)\-?[\d]{0,2}\.((co|org|gov|govt|ac|net|com)\.)?[\w]{2,3}$/
-# (matches any subdomain that contains "mail" that allows for a leading 1-3 letters, digits with or without a "-" that also ends with a 2-3 letter TLD)
-/^(.*\.)?[\w\d\-]{0,3}mail.*\.[\w]{2,3}$/
+## Mail Domains
+# This rule will allow anything ending with the keyword in the domain allowing for a trailing 1-2 digits (restricted to 2-3 letter TLD)
+/.*mail(|s)\-?[\d]{0,2}(\.(co|org|gov|govt|ac|net|com))?\.[\w]{2,3}$/
+# This rule will allow a leading 1-3 character word or digit or literally anything so long as it also has a "." or "-" at the beginning of the keyword and/or will allow for literally anything following the keyword (restricted to 2-3 letter TLD)
+/(.*(\.|\-))*[\w\d]{0,3}mail.*\.[\w]{2,3}$/
 
-## Image Hosting (unbreaks most images from loading)
-# (matches any domain that ends with "image/s or "img/s" that allows for a trailing 1-2 digit with or without a "-" that also ends with a 2+ letter TLD)
-/^.*(image(|s)|img(|s))\-?[\d]{0,2}\.((co|org|gov|govt|ac|net|com)\.)?[\w]{2,}$/
-# (matches any subdomain that contains "image/s or "img/s" that allows for a leading/trailing 1-2 digit with or without a "-" that also ends with a 2+ letter TLD)
-/^(.*(\.|\-))*[\d]{0,2}(image(|s)|img(|s))[\d]{0,2}((\.|\-|).*)*\.[\w]{2,}$/
+## Links & Redirectors Domains
+# This rule will allow anything ending with the keyword in the domain allowing for a trailing 1-2 digits (restricted to 2-3 letter TLD)
+/.*(link(|s)|redirect(|s|or))\-?[\d]{0,2}(\.(co|org|gov|govt|ac|net|com))?\.[\w]{2,3}$/
+# This rule will allow a leading/trailing 1-2 digit or literally anything so long as it also has a "." or "-" at the beginning or end of the keyword (restricted to 2-3 letter TLD)
+/(.*(\.|\-))*[\d]{0,2}(link(|s)|redirect(|s|or))[\d]{0,2}((\.|\-).*)*\.[\w]{2,3}$/
 
-## Blogs/Forums/Communities/Boards
-# (matches any domain that ends with "forum/s", "communit/y/ies" or "board/s" that allows for a leading/trailing 1-2 digit with or without a "-" that also ends with a 2+ letter TLD)
-/^.*(blog(|s)|forum(|s)|communit(y|ies)|board(|s))\-?[\d]{0,2}\.((co|org|gov|govt|ac|net|com)\.)?[\w]{2,}$/
-# (matches any subdomain that contains "blog/s", "forum/s" or "communit/y/ies" that allows for a leading/trailing 1-2 digit with or without a "-" that also ends with a 2+ letter TLD)
-/^(.*(\.|\-))*[\d]{0,2}(blog(|s)|forum(|s)|communit(y|ies)|board(|s))[\d]{0,2}((\.|\-|).*)*\.[\w]{2,}$/
+## Image Domains
+# This rule will allow anything ending with the keyword in the domain allowing for a trailing 1-2 digits (restricted to 2-3 letter TLD)
+/.*(image(|s)|img(|s))\-?[\d]{0,2}(\.(co|org|gov|govt|ac|net|com))?\.[\w]{2,3}$/
+# This rule will allow a leading/trailing 1-2 digit or literally anything so long as it also has a "." or "-" at the beginning or end of the keyword (restricted to 2-3 letter TLD)
+/(.*(\.|\-))*[\d]{0,2}(image(|s)|img(|s))[\d]{0,2}((\.|\-).*)*\.[\w]{2,3}$/
 
-## Links & Redirectors
-# (matches any domain that ends with "-" and "link/s" or "redirect/s/or" that allows for a leading/trailing 1-2 digit with or without a "-" that also ends with a 2+ letter TLD)
-/^.*\-(link(|s)|redirect(|s|or))\-?[\d]{0,2}\.((co|org|gov|govt|ac|net|com)\.)?[\w]{2,}$/
-# (matches any subdomain that contains "link/s" or "redirect/s/or" that allows for a leading/trailing 1-2 digit with or without a "-" that also ends with a 2+ letter TLD)
-/^(.*(\.|\-))*[\d]{0,2}(link(|s)|redirect(|s|or))[\d]{0,2}((\.|\-|).*)*\.[\w]{2,}$/
+## Blog/Forum/Community/Board Domains
+# This rule will allow anything ending with the keyword in the domain (restricted to 2-3 letter TLD)
+/.*(blog(|s)|forum(|s)|communit(y|ies)|board(|s))\-?[\d]{0,2}(\.(co|org|gov|govt|ac|net|com))?\.[\w]{2,3}$/
+# This rule will allow a leading/trailing 1-2 digit or literally anything so long as it also has a "." or "-" at the beginning or end of the keyword (restricted to 2-3 letter TLD)
+/(.*(\.|\-))*[\d]{0,2}(blog(|s)|forum(|s)|communit(y|ies)|board(|s))[\d]{0,2}((\.|\-).*)*\.[\w]{2,3}$/
 
-## Torrents
+## Torrent Domains
 /.*torrent(|s).*/
 
 ## Microsoft OneDrive, Azure, Windows Esentials updates, other, xboxlive (required for saves to the cloud)
