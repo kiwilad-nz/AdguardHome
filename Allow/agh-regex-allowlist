@@ -47,58 +47,8 @@
 /^v[0-2]+?\.events\.data\.microsoft\.com$/
 
 ## Mobile and Tablets
-/^m\.(hotmail|reddit|reuters|twitch|weeklyad.target|yahoo|youtube)\.(com|tv)$/
+/^m\.(hotmail|reddit|twitch|yahoo|youtube)\.(com|tv)$/
 
 ## SSL Certificate
 /^crl[3-4]\.digicert\.com$/
 /(\.|^)lencr\.org$/
-
-## Content Delivery Networks (CDNs)
-#/(.|^)cloudflare\.com$/
-#/(.|^)akamaized\.net$/
-#/(.|^)akamaihd\.net$/
-#/(.|^)akamaiedge\.net$/
-#/(.|^)edgecastcdn\.net$/
-#/(.|^)fastly\.net$/
-#/(.|^)llcdn\.net$/
-#/(.|^)googleusercontent\.com$/
-#/(.|^)cdnjs\.cloudflare\.com$/
-#/(.|^)hwcdn\.net
-#/(.|^)cdn\.jsdelivr\.net$/
-#/(.|^)amazonaws\.com$/
-#/(.|^)cloudfront\.net$/
-#/(.|^)cdn\.optimizely\.com$/
-#/(.|^)stackpathcdn\.com$/
-#/(.|^)incapsula\.com$/
-#/(.|^)imgix\.net$/
-#/(.|^)cdn\.jsdelivr\.net$/
-#/(.|^)wp\.com$/
-#/(.|^)cloudinary\.com$/
-#/(.|^)bootstrapcdn\.com$/
-#/(.|^)yimg\.com$/
-#/(.|^)googleapis\.com$/
-#/(.|^)azureedge\.net$/
-#/(.|^)cdnjs\.com$/
-#/(.|^)jquery\.com$/
-#/(.|^)fonts\.googleapis\.com$/
-#/(.|^)vidyocdn\.com|maxcdn\.com$/
-#/(.|^)cdn77\.com$/
-#/(.|^)res\.cloudinary\.com$/
-#/(.|^)mapbox\.com$/
-#/(.|^)cdn\.ckeditor\.com$/
-#/(.|^)cdn\.segment\.com$/
-#/(.|^)googleapis\.com$/
-#/(.|^)staticflickr\.com$/
-#/(.|^)cdnjs\.cloudflare\.com$/
-#/(.|^)static\.wp\.com$/
-#/(.|^)fast\.wistia\.net$/
-#/(.|^)fastly-insights\.com$/
-#/(.|^)cdn\.discordapp\.com$/
-#/(.|^)cdn\.ampproject\.org$/
-#/(.|^)cdn\.sstatic\.net$/
-#/(.|^)assets\.adobedtm\.com$/
-#/(.|^)cdn\.hubspot\.net$/
-#/(.|^)cdnjs\.cloudflare\.com$/
-#/(.|^)m\.stripe\.com$/
-#/(.|^)cdn\.vox-cdn\.com$/
-#/^cdn\.(bootcss|cloudflare|datatables|discordapp|embed|embedly|materialdesignicons|mathjax|plyr|samsungcloudsolution|signal|staticfile)\.(com|io|ly|net|org)$/
