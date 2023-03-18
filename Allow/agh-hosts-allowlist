@@ -1,11 +1,33 @@
+## NTP
+@@||pool.ntp.org^$important
+
+## TPLink Kasa
+@@||use1-api.tplinkra.com^$important
+@@||n-devs.tplinkcloud.com^$important
+@@||n-deventry.tplinkcloud.com^$important
+@@||use1-api.tplinkra.com^$important
+@@||n-devs.tplinkcloud.com^$important
+@@||n-deventry.tplinkcloud.com^$important
+
+## Plex
+@@||pubsub.plex.tv^$important
+
+## Google
+@@||ocsp.pki.goog^$important
+
 ## Links / email
 @@||custom-proxy.leadpages.net^$important
 @@||sendgrid.net^$important
 @@||muellercreativeinc.ontraport.com^$important
 @@||ontraport.com^$important
 
-## Trackers
+## Torrent Trackers
 @@||tracker.qt.is^$important
 @@||asnet.pw^$important
 @@||tracker2.wasabii.com.tw^$important
 @@||inferno.demonoid.ooo^$important
+@@||reelflix.xyz^$important
+@@||eztv.re^$important
+@@||routing.bgp.technology^$important
+@@||tracker.port443.xyz^$important
+@@||ssl.empirehost.me^$important
