@@ -8,8 +8,8 @@
 /^advert(s|is(ing|ements?))?[0-9]*[_.-]/
 /^aff(iliat(es?|ion))?[_.-]/
 /^mads\./
-/((^)|(.))adchoice./
-/((^)|(.))adsdk./
+/^adchoice./
+/^adsdk./
 
 ## Telemetry
 /^(.+[_.-])?telemetry[_.-]/
@@ -18,11 +18,8 @@
 /^beacons?[0-9]*[_.-]/
 /^stat(s|istics)?[0-9]*[_.-]/
 /^count(ers?)?[0-9]*[_.-]/
-/((^)|(.))metrics?./
-/((^)|(.))events./
-/^(\S+.)?(webstats?|swebstats?|mywebstats?)./
 
 ## Tracking
 /^pixels?[-.]/
 /^adtrack(er|ing)?[0-9]*[_.-]/
-/((^)|(.))tracking./
+/^tracking[-.]/
