@@ -12,6 +12,10 @@
 ## Plex
 @@||pubsub.plex.tv^$important
 
+## SSL Certificate
+@@||digicert^$important
+@@||lencr.org^$important
+
 ## Google
 @@||ocsp.pki.goog^$important
 @@||googleapis.com^$important
