@@ -1,4 +1,5 @@
 ## TLD
+# Commended TLD are allowed to reduce false positives
 ||aaa^
 ||aarp^
 ||abarth^
