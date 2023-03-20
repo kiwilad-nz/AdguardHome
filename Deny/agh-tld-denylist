@@ -20,7 +20,7 @@
 ||ad^
 ||ads^
 ||adult^
-||ae^
+#||ae^
 ||aeg^
 ||aero^
 ||aetna^
@@ -758,7 +758,7 @@
 ||mc^
 ||mckinsey^
 ||md^
-||me^
+#||me^
 ||med^
 ||media^
 ||meet^
@@ -834,7 +834,7 @@
 #||network^
 ||neustar^
 ||new^
-||news^
+#||news^
 ||next^
 ||nextdirect^
 ||nexus^
