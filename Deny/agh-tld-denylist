@@ -45,7 +45,7 @@
 ||ally^
 ||alsace^
 ||alstom^
-||am^
+#||am^
 #||amazon^
 ||americanexpress^
 ||americanfamily^
@@ -94,7 +94,7 @@
 ||ax^
 ||axa^
 ||az^
-#||azure^
+||azure^
 ||ba^
 ||baby^
 ||baidu^
@@ -119,7 +119,7 @@
 ||bcg^
 ||bcn^
 ||bd^
-||be^
+#||be^
 ||beats^
 ||beauty^
 ||beer^
@@ -351,7 +351,7 @@
 ||dog^
 ||domains^
 ||dot^
-#||download^
+||download^
 #||drive^
 ||dtv^
 ||dubai^
@@ -381,7 +381,7 @@
 ||er^
 ||ericsson^
 ||erni^
-||es^
+#||es^
 ||esq^
 ||estate^
 ||et^
@@ -390,7 +390,7 @@
 ||eurovision^
 ||eus^
 ||events^
-#||exchange^
+||exchange^
 ||expert^
 ||exposed^
 ||express^
@@ -493,7 +493,7 @@
 ||global^
 ||globo^
 ||gm^
-#||gmail^
+||gmail^
 ||gmbh^
 ||gmo^
 ||gmx^
@@ -581,7 +581,7 @@
 ||icbc^
 ||ice^
 ||icu^
-||id^
+#||id^
 ||ie^
 ||ieee^
 ||ifm^
@@ -592,7 +592,7 @@
 ||imdb^
 ||immo^
 ||immobilien^
-||in^
+#||in^
 ||inc^
 ||industries^
 ||infiniti^
@@ -611,7 +611,7 @@
 ||iq^
 ||ir^
 ||irish^
-||is^
+#||is^
 ||ismaili^
 ||ist^
 ||istanbul^
@@ -711,7 +711,7 @@
 ||lincoln^
 ||link^
 ||lipsy^
-||live^
+#||live^
 ||living^
 ||lk^
 ||llc^
@@ -720,7 +720,7 @@
 ||loans^
 ||locker^
 ||locus^
-||lol^
+#||lol^
 ||london^
 ||lotte^
 ||lotto^
@@ -736,7 +736,7 @@
 ||lundbeck^
 ||luxe^
 ||luxury^
-||lv^
+#||lv^
 #||ly^
 ||ma^
 ||madrid^
@@ -760,10 +760,10 @@
 ||md^
 #||me^
 ||med^
-||media^
+#||media^
 ||meet^
 ||melbourne^
-||meme^
+#||meme^
 ||memorial^
 ||men^
 #||menu^
@@ -830,7 +830,7 @@
 ||nec^
 #||net^
 ||netbank^
-#||netflix^
+||netflix^
 #||network^
 ||neustar^
 ||new^
@@ -879,7 +879,7 @@
 ||one^
 ||ong^
 ||onl^
-||online^
+#||online^
 ||ooo^
 ||open^
 ||oracle^
@@ -929,7 +929,7 @@
 ||pl^
 ||place^
 ||play^
-#||playstation^
+||playstation^
 ||plumbing^
 ||plus^
 ||pm^
@@ -944,7 +944,7 @@
 ||pramerica^
 ||praxi^
 ||press^
-#||prime^
+||prime^
 ||pro^
 ||prod^
 ||productions^
@@ -990,8 +990,8 @@
 ||republican^
 ||rest^
 ||restaurant^
-#||review^
-#||reviews^
+||review^
+||reviews^
 ||rexroth^
 ||rich^
 ||richardli^
@@ -1083,8 +1083,8 @@
 ||sk^
 ||ski^
 ||skin^
-#||sky^
-#||skype^
+||sky^
+||skype^
 ||sl^
 ||sling^
 ||sm^
@@ -1121,7 +1121,7 @@
 ||stockholm^
 ||storage^
 #||store^
-#||stream^
+||stream^
 ||studio^
 ||study^
 ||style^
@@ -1299,7 +1299,7 @@
 ||ws^
 ||wtc^
 ||wtf^
-#||xbox^
+||xbox^
 ||xerox^
 ||xfinity^
 ||xihuan^
@@ -1467,7 +1467,7 @@
 ||yoga^
 ||yokohama^
 ||you^
-#||youtube^
+||youtube^
 #||yt^
 ||yun^
 #||za^
