@@ -22,4 +22,3 @@
 ## Tracking
 /^pixels?[-.]/
 /^adtrack(er|ing)?[0-9]*[_.-]/
-/^tracking[-.]/
