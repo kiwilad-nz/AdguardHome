@@ -11,7 +11,7 @@
 ||abogado^
 ||abudhabi^
 #||ac^
-||academy^
+#||academy^
 ||accenture^
 ||accountant^
 ||accountants^
@@ -68,9 +68,9 @@
 ||arab^
 ||aramco^
 ||archi^
-||army^
+#||army^
 ||arpa^
-||art^
+#||art^
 ||arte^
 ||as^
 ||asda^
@@ -138,7 +138,7 @@
 ||bike^
 ||bing^
 ||bingo^
-||bio^
+#||bio^
 #||biz^
 ||bj^
 ||black^
@@ -188,7 +188,7 @@
 ||bzh^
 #||ca^
 ||cab^
-||cafe^
+#||cafe^
 ||cal^
 ||call^
 ||calvinklein^
@@ -217,7 +217,7 @@
 ||cbn^
 ||cbre^
 ||cbs^
-||cc^
+#||cc^
 ||cd^
 ||center^
 ||ceo^
@@ -278,7 +278,7 @@
 ||consulting^
 ||contact^
 ||contractors^
-||cooking^
+#||cooking^
 ||cookingchannel^
 ||cool^
 ||coop^
@@ -436,7 +436,7 @@
 #||fm^
 ||fo^
 ||foo^
-||food^
+#||food^
 ||foodnetwork^
 ||football^
 ||ford^
@@ -655,7 +655,7 @@
 ||kim^
 ||kinder^
 ||kindle^
-||kitchen^
+#||kitchen^
 #||kiwi^
 ||km^
 ||kn^
@@ -918,7 +918,7 @@
 ||physio^
 #||pics^
 ||pictet^
-||pictures^
+#||pictures^
 ||pid^
 ||pin^
 ||ping^
@@ -973,7 +973,7 @@
 ||realestate^
 ||realtor^
 ||realty^
-||recipes^
+#||recipes^
 ||red^
 ||redstone^
 ||redumbrella^
@@ -990,8 +990,8 @@
 ||republican^
 ||rest^
 ||restaurant^
-||review^
-||reviews^
+#||review^
+#||reviews^
 ||rexroth^
 ||rich^
 ||richardli^
@@ -1039,11 +1039,11 @@
 ||scb^
 ||schaeffler^
 ||schmidt^
-||scholarships^
-||school^
+#||scholarships^
+#||school^
 ||schule^
 ||schwarz^
-||science^
+#||science^
 ||scot^
 ||sd^
 ||se^
