@@ -34,18 +34,3 @@
 @@||api.radarr.video^$important
 @@||services.sonarr.tv^$important
 @@||skyhook.sonarr.tv^$important
-
-## Torrent Trackers
-@@||torrentgalaxy.to^$important
-@@||solidtorrents.to^$important
-@@||torrentday.cool^$important
-@@||kickasstorrents.to^$important
-@@||tracker.qt.is^$important
-@@||asnet.pw^$important
-@@||tracker2.wasabii.com.tw^$important
-@@||inferno.demonoid.ooo^$important
-@@||reelflix.xyz^$important
-@@||eztv.re^$important
-@@||routing.bgp.technology^$important
-@@||tracker.port443.xyz^$important
-@@||ssl.empirehost.me^$important
