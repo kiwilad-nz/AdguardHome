@@ -454,7 +454,7 @@
 ||frontier^
 ||ftr^
 ||fujitsu^
-||fun^
+#||fun^
 ||fund^
 ||furniture^
 ||futbol^
@@ -464,8 +464,8 @@
 #||gallery^
 ||gallo^
 ||gallup^
-||game^
-||games^
+#||game^
+#||games^
 ||gap^
 ||garden^
 ||gay^
@@ -554,7 +554,7 @@
 ||hn^
 ||hockey^
 ||holdings^
-||holiday^
+#||holiday^
 ||homedepot^
 ||homegoods^
 ||homes^
@@ -566,7 +566,7 @@
 ||hosting^
 ||hot^
 ||hoteles^
-||hotels^
+#||hotels^
 ||hotmail^
 ||house^
 ||how^
@@ -700,7 +700,7 @@
 ||lgbt^
 ||li^
 ||lidl^
-||life^
+#||life^
 ||lifeinsurance^
 ||lifestyle^
 ||lighting^
@@ -711,7 +711,7 @@
 ||lincoln^
 #||link^
 ||lipsy^
-#||live^
+||live^
 ||living^
 ||lk^
 ||llc^
@@ -892,7 +892,7 @@
 ||ott^
 ||ovh^
 ||pa^
-||page^
+#||page^
 ||panasonic^
 ||paris^
 ||pars^
@@ -926,9 +926,9 @@
 ||pioneer^
 ||pizza^
 ||pk^
-||pl^
+#||pl^
 ||place^
-||play^
+#||play^
 ||playstation^
 ||plumbing^
 ||plus^
@@ -1019,7 +1019,7 @@
 ||safe^
 ||safety^
 ||sakura^
-||sale^
+#||sale^
 ||salon^
 ||samsclub^
 ||samsung^
@@ -1178,14 +1178,14 @@
 ||tj^
 ||tjmaxx^
 ||tjx^
-||tk^
+#||tk^
 ||tkmaxx^
 ||tl^
 ||tm^
 ||tmall^
 ||tn^
 #||to^
-||today^
+#||today^
 ||tokyo^
 ||tools^
 ||top^
@@ -1200,7 +1200,7 @@
 ||trade^
 ||trading^
 ||training^
-||travel^
+#||travel^
 ||travelchannel^
 ||travelers^
 ||travelersinsurance^
@@ -1295,10 +1295,10 @@
 ||work^
 ||works^
 ||world^
-||wow^
+#||wow^
 ||ws^
 ||wtc^
-||wtf^
+#||wtf^
 ||xbox^
 ||xerox^
 ||xfinity^
@@ -1456,8 +1456,8 @@
 ||xn--yfro4i67o^
 ||xn--ygbi2ammx^
 ||xn--zfr164b^
-||xxx^
-||xyz^
+#||xxx^
+#||xyz^
 ||yachts^
 ||yahoo^
 ||yamaxun^
