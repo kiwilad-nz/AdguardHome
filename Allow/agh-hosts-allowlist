@@ -21,15 +21,7 @@
 @@||ocsp.pki.goog^$important
 @@||googleapis.com^$important
 
-## Links / email
-@@||custom-proxy.leadpages.net^$important
-@@||sendgrid.net^$important
-@@||ontraport.com^$important
-@@||lt.acemlnb.com^$important
-@@||files.keap.app^$important
-@@||sharethis.com^$important
-
-## Sonarr/Radarr
+## Other
 @@||radarr.servarr.com^$important
 @@||api.radarr.video^$important
 @@||services.sonarr.tv^$important
