@@ -1,4 +1,7 @@
-## Hosts Whitelist
+####################
+##  Hosts Syntax  ##
+####################
+
 *.api.microsoftstream.com
 *.azureedge.net
 *.broadcast.skype.com
@@ -91,7 +94,6 @@
 2mdn.net
 2o7.net
 3-edge-chat.facebook.com
-4.cn
 4-edge-chat.facebook.com
 4ix.com
 4shared.com
@@ -104,10 +106,8 @@
 123greetings.com
 123-reg.co.uk
 163.com
-360.cn
 500px.com
 1688.com
-
 a1.mzstatic.com
 a8onlineshop.trendmicro.co.jp
 a463.w10.akamai.net
@@ -135,7 +135,6 @@ accounts.nvgs.nvidia.com
 accounts.pkr.com.invalid
 accuweather.com
 acdn.adnxs.com
-acgnet.cn
 acompli.helpshift.com
 acquirethisname.com
 activate.adobe.com
@@ -202,9 +201,6 @@ ameblo.jp
 amp.azure.net
 amzn.com
 amzn.to
-analitik.edevlet.gov.tr
-
-
 android.clients.google.com
 android.com
 androidtvwatsonfe-pa.googleapis.com
@@ -226,9 +222,7 @@ api.cryptonator.com
 api.fast.com
 api.hostip.info
 api.ipify.org
-api.map.ahrtv.cn
 api.microsoftstream.com
-api.moyu.ac.cn
 api.nfl.com
 api.onedrive.com
 api.passwordreset.microsoftonline.com
@@ -302,7 +296,6 @@ bbs.cndeaf.com
 becws.microsoftonline.com
 beenverified.com
 behance.net
-beian.gov.cn
 berkeley.edu
 bestbuy.com
 bestfwdservice.com
@@ -336,7 +329,6 @@ bizjournals.com
 bjbgc.com
 blizzard.com
 blocklists.settings.services.mozilla.com
-blog.sina.com.cn
 blogger.com
 blogspot.ca
 blogspot.co.uk
@@ -405,7 +397,6 @@ cbox.ws
 cbsi.com
 cbslocal.com
 cbsnews.com
-ccgslb.com.cn
 ccmbg.com
 cd.connatix.com
 cdbaby.com
@@ -474,14 +465,6 @@ cisco.com
 ckk.ai
 clamav.net
 clck.ru
-click.aliexpress.com
-click.redditmail.com
-click.revue.email
-click.simba.taobao.com
-clickdimensions.com
-clickfunnels.com
-clickhouse.com
-clickserve.dartsearch.net
 clien.net
 client-event-reporter.twitch.tv
 client-s.gateway.messenger.live.com
@@ -661,7 +644,6 @@ dns.digitale-gesellschaft.ch
 dns.hostux.net
 dns.msftncsi.com
 dnsotls-ds.metric.gstatic.com
-dnspod.cn
 docs.google.com
 dodgersdigest.com
 doh.dns.sb
@@ -673,7 +655,6 @@ domeneshop.no
 domraider.io
 dot.gov
 dotzbr-dev.mirakl.net
-doubleclick.net
 download.extremereach.com
 download.microsoft.com
 download.sonarr.tv
@@ -730,7 +711,6 @@ eindependencia.edu.mx
 ejquo23388.i.lithium.com
 ekg.riotgames.com
 elegantthemes.com
-elink.clickdimensions.com
 eliteoz.com.au
 eloqua.com
 elpais.com
@@ -928,7 +908,24 @@ godaddy.com
 godlikeproductions.com
 gofile.io
 gofundme.com
+gog.com
+goo.gl
+goo.ne.jp
 goodreads.com
+google.ca
+google.co.in
+google.co.jp
+google.co.uk
+google.com
+google.com.au
+google.com.br
+google.de
+google.es
+google.fr
+google.it
+google.nl
+google.pl
+google.ru
 googleadapis.l.google.com
 googleadservices.com
 googleapis.com
@@ -1031,7 +1028,6 @@ i0.web.de
 i0.wp.com
 i1.ytimg.com
 i.cdn.turner.com
-i.click.taobao.com
 i.ibb.co
 i.ytimg.com
 iad.liveperson.net
@@ -1097,7 +1093,6 @@ ipla.hit.stat24.com
 ipv6.msftconnecttest.com
 ipv6.msftncsi.com
 irs.gov
-is.gd
 issuu.com
 istockphoto.com
 itch.io
@@ -1105,7 +1100,6 @@ itmagazine.ch
 itunes.apple.com
 iubenda.com
 iwelt.de
-j.mp
 jabu.edu.ng
 jackjones.com
 jdownloader.org
@@ -1228,7 +1222,6 @@ madison.com
 magiskmanager.com
 mail.office.hiworks.com
 mail.ru
-mail.tsinghua.edu.cn
 mail.yahoo.com
 mailchimp.com
 mailfoogae.appspot.com
@@ -1273,8 +1266,6 @@ microsoftonline.com
 microsoftwindowsupdate.net
 midasplayer.com
 middleware.p7s1.io
-miibeian.gov.cn
-miitbeian.gov.cn
 mijndomein.nl
 mijnknwu.knwu.nl
 mindvalley.com
@@ -1301,7 +1292,6 @@ moengage.com
 monitor.azure.com
 mooo.com
 motherless.com
-moyu.ac.cn
 mozilla.com
 mozilla.org
 mqtt-mini.facebook.com
@@ -1318,7 +1308,6 @@ mvps.org
 my.mixtape.moe
 my.plexapp.com
 myabandonware.com
-
 myfreecams.com
 myshopify.com
 myspace.com
@@ -1417,7 +1406,6 @@ onedrive.com
 onedrive.live.com
 onelink.me
 online-metrix.net
-online.sh.cn
 onmilwaukee.com
 ooyala.com
 open.spotify.com
@@ -1449,7 +1437,6 @@ p.brid.tv
 p.imgur.com
 p.shure.com
 p.typekit.net
-pagead.l.doubleclick.net
 paho.org
 paperlesspost.com
 parallels.com
@@ -1506,7 +1493,6 @@ politico.com
 polyfill.io
 pop.com
 portal.office.com
-post.i.api.ahrtv.cn
 post.spmailtechno.com
 postmediamontrealgazette2.files.wordpress.com
 pov.spectrum.net
@@ -1592,7 +1578,6 @@ responsys.net
 reuters.com
 revue.com
 ridefox.com
-rilibiao.com.cn
 rink.hockeyapp.net
 riotgames.com
 ris.api.iris.microsoft.com
@@ -1624,11 +1609,7 @@ s4.symcb.com
 s5.symcb.com
 s1325.t.eloqua.com
 s.cdn.turner.com
-s.click.aliexpress.com
-s.click.taobao.com
-s.click.tmall.com
 s.gateway.messenger.live.com
-s.id
 s.marketwatch.com
 s.media-imdb.com
 s.ndemiccreations.com
@@ -1664,7 +1645,6 @@ scribd.com
 scribol.com
 sdk-02.moengage.com
 sdk.hockeyapp.net
-sea.net.edu.cn
 searchencrypt.com
 seccdn-gl.imrworldwide.com
 secure.avangate.com
@@ -1713,14 +1693,11 @@ shopify.com
 shoppy.gg
 shops.myshopify.com
 shure.com
-si.edu
 signal-sdk-service-production.ap-south-1.elasticbeanstalk.com
 silo.pluto.tv
 siloh.pluto.tv
 simplelogin.co
 simplelogin.fr
-sina.com.cn
-sinaimg.cn
 site5.com
 skidrow-games.com
 skimresources.com
@@ -1768,7 +1745,6 @@ squarespace.com
 src.litix.io
 ss.phncdn.com
 ssl-nl.persgroep.edgekey.net
-
 ssl.o.auspost.com.au
 ssl.p.jwpcdn.com
 ssm1.internet.sony.tv
@@ -1802,7 +1778,6 @@ stc.za.zaloapp.com
 steamcommunity.com
 steampowered.com
 stileproject.com
-stisa.org.cn
 stitcher.pluto.tv
 storage.googleapis.com
 storage.live.com
@@ -1837,7 +1812,6 @@ t-online.de
 t0.ssl.ak.dynamic.tiles.virtualearth.net
 t0.ssl.ak.tiles.virtualearth.net
 t2.hulu.com
-t.co
 t.dripemail2.com
 t.eloqua.com
 t.paypal.com
@@ -1896,7 +1870,6 @@ today.com
 todo-ta-g7g.amazon.com
 tomshardware.com
 tpdads.com
-track.moyu.ac.cn
 track.nzz.ch
 track.ucas.com
 tracker.cyber-hub.net
@@ -1986,7 +1959,6 @@ v.shopify.com
 v.wpimg.pl
 va.gov
 variety.com
-vc.ru
 vcrypt.net
 vendorlist.consensu.org
 vendorlist.dmcdn.net
@@ -2016,8 +1988,6 @@ virtualearth.net
 visit.digidip.net
 visma.com
 vjs.zencdn.net
-vk.cc
-vk.com
 vkontakte.ru
 vlab.pp.ru
 vlscppe.microsoft.com
@@ -2075,8 +2045,6 @@ worldbank.org
 worldometers.info
 wowhead.com
 wp.com
-wp.me
-wp.pl
 ws.audioscrobbler.com
 ws.pusherapp.com
 ws.sharethis.com
@@ -2090,7 +2058,6 @@ www3.bloomingdales.com
 www3.webhostingtalk.com
 www5.untangle.com
 www.4shared.com
-www.888poker.com
 www.actuabd.com
 www.adf.ly
 www.amazonforum.com
@@ -2099,7 +2066,6 @@ www.appleiphonecell.com
 www.asadcdn.com
 www.ask.com
 www.baidu.com
-www.be
 www.beenverified.com
 www.bestfwdservice.com
 www.bet365.com
@@ -2129,8 +2095,9 @@ www.fhm.com
 www.fide.com
 www.fok.nl
 www.forbes.com
-www.fr
 www.godaddy.com
+www.gog.com
+www.google.com
 www.googleadservices.com
 www.googleapis.com
 www.greenmangaming.com
@@ -2141,8 +2108,6 @@ www.hotspotshield.com
 www.hs-scripts.com
 www.html5zombo.com
 www.humblebundle.com
-www.inf
-www.j.mp
 www.jdownloader.org
 www.khanacademy.org
 www.kickstarter.com
@@ -2256,6 +2221,11 @@ zombo.com
 zoo.sandiegozoo.org
 zscaler.com
 ztm.waw.pl
+
+###########################
+##  Adguard Home Syntax  ##
+###########################
+
 @@|account-api.protonmail.com^$important
 @@|account.protonmail.com^$important
 @@|aoe-api.reliclink.com^$important
@@ -2714,7 +2684,6 @@ ztm.waw.pl
 @@||accounts.google.com.*^$important
 @@||accounts.google.com^$important
 @@||accounts.lastpass.com^$important
-@@||accounts.nvgs.nvidia.cn^$important
 @@||accounts.nvgs.nvidia.com^$important
 @@||accounts.scdn.co^$important
 @@||accounts.soundcloud.com^$important
@@ -2802,8 +2771,6 @@ ztm.waw.pl
 @@||ams.buy.mi.com^$important
 @@||amzn.com^$important
 @@||amzn.to^$important
-
-
 @@||anchor.fm^$important
 @@||andauth.co^$important
 @@||android.apis.google.com^$important
@@ -3646,7 +3613,6 @@ ztm.waw.pl
 @@||configuration.apple.com.akadns.net^$important
 @@||confluence.ea.com^$important
 @@||conncheck.opensuse.org^$important
-@@||connect-drcn.dbankcloud.cn^$important
 @@||connect.epicgames.dev^$important
 @@||connect.mozilla.org^$important
 @@||connect.ol.epicgames.com^$important
@@ -3975,7 +3941,6 @@ ztm.waw.pl
 @@||dmqdd6hw24ucf.cloudfront.net^$important
 @@||dmx.upc.ubisoft.com^$important
 @@||dnf.readthedocs.io^$important
-@@||dnkeeper.platform.dbankcloud.cn^$important
 @@||dns-family.adguard.com^$important
 @@||dns.adguard.com^$important
 @@||dns.msftncsi.com^$important
@@ -4607,7 +4572,6 @@ ztm.waw.pl
 @@||gear.xbox.com^$important
 @@||gearsofwar.xbox.com^$important
 @@||gen4.reports.tools.gos.ea.com^$important
-@@||geo-dre.platform.dbankcloud.cn^$important
 @@||geo-location-api.gx.nvidia.com^$important
 @@||geo-mirror.chaotic.cx^$important
 @@||geo-prod.do.dsp.mp.microsoft.com^$important
@@ -4690,6 +4654,8 @@ ztm.waw.pl
 @@||goo.gl^$important
 @@||google2.cdn.steampipe.steamcontent.com^$important
 @@||google.cdn.steampipe.steamcontent.com^$important
+@@||google.com.au^$important
+@@||google.com^$important
 @@||googleapis.com^$important
 @@||googleapis.l.google.com^$important
 @@||googlehosted.l.googleusercontent.com^$important
@@ -4749,8 +4715,6 @@ ztm.waw.pl
 @@||he.wikipedia.com^$important
 @@||heads-ak-spotify-com.akamaized.net^$important
 @@||health.nsw.gov.au^$important
-@@||healthcommon-dre.things.dbankcloud.cn^$important
-@@||healthtrade-dre.things.dbankcloud.cn^$important
 @@||heartbeat.dm.origin.com^$important
 @@||heartbeats.prd.data.s.joyn.de^$important
 @@||help-assets.soundcloud.com^$important
@@ -5161,8 +5125,6 @@ ztm.waw.pl
 @@||lobby*-prod.svc.gearsofwar.net^$important
 @@||local.adguard.com^$important
 @@||local.adguard.org^$important
-
-
 @@||login5.spotify.com^$important
 @@||login.aliexpress.com^$important
 @@||login.corsair.com^$important
@@ -6780,7 +6742,6 @@ ztm.waw.pl
 @@||support.wdc.com^$important
 @@||support.xbox.com^$important
 @@||supportuat.xbox.com^$important
-@@||survey.g.doubleclick.net^$important
 @@||sv.symcd.com^$important
 @@||sv.twitch.tv^$important
 @@||sv.wikipedia.com^$important
@@ -7185,7 +7146,6 @@ ztm.waw.pl
 @@||view.status.xbox.com^$important
 @@||viewscreen.githubusercontent.com^$important
 @@||vimeo.com^$important
-@@||viper.click^$important
 @@||vipergirls.to^$important
 @@||virustotal.com^$important
 @@||visuals.soundcloud.com^$important
