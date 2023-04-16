@@ -104,8 +104,6 @@ api.nfl.com
 admarkt.marktplaats.nl
 123greetings.com
 livejasmin.com
-dns1.registrar-servers.com
-dns2.registrar-servers.com
 emails.kickstarter.com
 ridefox.com
 ct.pinterest.com
@@ -211,7 +209,6 @@ sascdn.com
 ecn.dev.virtualearth.net
 cdn.bluebillywig.com
 bluebillywig.com
-duckdns.org
 cdn.discordapp.com
 download.winzip.com
 livepassdl.conviva.com
@@ -254,8 +251,6 @@ raw.githubusercontent.com
 github.com
 letsencrypt.org
 .letsencrypt.org
-.opendns.com
-opendns.com
 mvps.org
 .mvps.org
 someonewhocares.com
@@ -1577,7 +1572,6 @@ danskretursystem.dk
 prod-adops-proxy.dnitv.net
 hostingprod.com
 api.binance.com
-cloudns.cl
 kickass.cd
 metric.gstatic.com
 dnsotls-ds.metric.gstatic.com
@@ -1713,7 +1707,6 @@ sg-host.com
 reseau-canope.fr
 online-metrix.net
 t.paypal.com
-dnspod.cn
 te.technical-service.net
 app.skiff.org
 get.untangle.com
@@ -1728,7 +1721,6 @@ ewr1.vultrobjects.com
 monitor.azure.com
 minisforum.de
 formspree.io
-doh.dns.sb
 shop.spreadshirt.com
 wl.spotify.com
 thirdparty.bnc.lt
@@ -1739,7 +1731,6 @@ scenarieconomici.it
 optmzly.fe.indazn.com
 mail.tsinghua.edu.cn
 faizanullah.com
-dns.hostux.net
 redirectme.net
 res-r.lfjack.com
 lfjack.com
@@ -1774,7 +1765,6 @@ damro.lk
 kutt.it
 za.zdn.vn
 xp.apple.com
-dns.digitale-gesellschaft.ch
 post.spmailtechno.com
 cainiao.com
 ac24horas.com
@@ -2782,8 +2772,6 @@ mixnews.lv
 123movies.to
 1337x.to
 17track.net
-1dot0dot0dot1.cloudflare-dns.com
-1dot1dot1dot1.cloudflare-dns.com
 1drv.com
 1e100.net
 1fgqfml.oloadcdn.net
@@ -3525,7 +3513,6 @@ amazon.science
 amazon.sd
 amazon.se
 amazon.services
-amazon.sexy
 amazon.sg
 amazon.sh
 amazon.shiksha
@@ -5368,9 +5355,6 @@ dmp.adform.net
 dms.ospserver.net
 dn.ospserver.net
 dnaindia.com
-dns.cloudflare.com
-dns1.funimation.com
-dns2.funimation.com
 doc.btc.com
 doc.emergingthreats.net
 docs.bitfinex.com
@@ -7676,7 +7660,6 @@ movie2k.to
 movies.ndtv.com
 movies.netflix.com
 moviesanywhere.com
-mozilla.cloudflare-dns.com
 mozilla.net
 mozillazine.org
 mp.microsoft.com
@@ -7937,11 +7920,6 @@ now.sh
 nowtheendbegins.com
 nphone.daum.net
 npmjs.com
-ns-1119.awsdns-11.org
-ns-1468.awsdns-55.org
-ns-1892.awsdns-44.co.uk
-ns-220.awsdns-27.com
-ns-530.awsdns-02.net
 ns.oneplus.com
 ns1.crunchyroll.com
 ns1.dirtywarez.com
@@ -8557,12 +8535,10 @@ qcloud.com
 qichacha.com
 qingcdn.com
 qiniudn.com
-qiniudns.com
 qiniuts.com
 qiuziti.com
 qiye.xiaomi.com
 qm.qq.co
-qme.mydns.jp
 qos.gcloud.qq.com
 qos.hk.gcloudcs.com
 qph.ec.quoracdn.net
@@ -9313,7 +9289,6 @@ sstream.flipboard.com
 st.hitbtc.com
 stackexchange.com
 stackpath.com
-stackpathdns.com
 stacks-photos.gotinder.com
 stacksocial.com
 stage.digitalpublishing.adobe.com
@@ -9756,7 +9731,6 @@ tnl-dash.com.edgesuite.net
 today.line.me
 tofukko.r.ribbon.to
 token-dispenser-mirror.herokuapp.com
-token-dispenser.duckdns.org
 token-dispenser.herokuapp.com
 tokenization.api.playstation.com
 tokopedia.app.link
@@ -10689,7 +10663,6 @@ www.drift.com
 www.dropbox.com
 www.drp.su
 www.dshield.org
-www.duckdns.org
 www.duo.nl
 www.dw.techrepublic.com
 www.earthlink.net
