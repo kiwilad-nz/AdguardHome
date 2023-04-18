@@ -22,3 +22,6 @@
 ## Tracking
 /^pixels?[-.]/
 /^adtrack(er|ing)?[0-9]*[_.-]/
+
+## DNS-SD
+/^lb\.\_dns\-sd\.\_udp\./
