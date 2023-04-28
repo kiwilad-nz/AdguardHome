@@ -178,8 +178,8 @@
 ||bt^
 ||build^
 ||builders^
-||business^
-||buy^
+#||business^
+#||buy^
 ||buzz^
 ||bv^
 ||bw^
@@ -711,7 +711,7 @@
 ||lincoln^
 #||link^
 ||lipsy^
-||live^
+#||live^
 ||living^
 ||lk^
 ||llc^
