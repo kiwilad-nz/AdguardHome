@@ -167,7 +167,7 @@
 ||bot^
 ||boutique^
 ||box^
-||br^
+#||br^
 ||bradesco^
 ||bridgestone^
 ||broadway^
@@ -825,7 +825,7 @@
 ||natura^
 #||navy^
 ||nba^
-||nc^
+#||nc^
 ||ne^
 ||nec^
 #||net^
@@ -1046,7 +1046,7 @@
 #||science^
 ||scot^
 ||sd^
-||se^
+#||se^
 ||search^
 ||seat^
 #||secure^
