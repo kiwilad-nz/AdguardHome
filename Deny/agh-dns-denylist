@@ -1,5 +1,4 @@
 ## DNS NXDOMAIN for DOH/QUIC
-||1dot1dot1dot1.cloudflare-dns.com^$dnsrewrite=NXDOMAIN
 ||a.family.ns.dnslify.com^$dnsrewrite=NXDOMAIN
 ||a.ns.dnslify.com^$dnsrewrite=NXDOMAIN
 ||a.safe.ns.dnslify.com^$dnsrewrite=NXDOMAIN
