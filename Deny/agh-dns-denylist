@@ -68,6 +68,7 @@
 ||dns.oszx.co^$dnsrewrite=NXDOMAIN
 ||dns.pub^$dnsrewrite=NXDOMAIN
 ||dns.pumplex.com^$dnsrewrite=NXDOMAIN
+||dns.quad9.net^$dnsrewrite=NXDOMAIN
 ||dns.rubyfish.cn^$dnsrewrite=NXDOMAIN
 ||dns.switch.ch^$dnsrewrite=NXDOMAIN
 ||dns.t53.de^$dnsrewrite=NXDOMAIN
