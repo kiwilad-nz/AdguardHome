@@ -62,6 +62,7 @@
 ||dns.mrkaran.dev^$dnsrewrite=NXDOMAIN
 ||dns.neutopia.org^$dnsrewrite=NXDOMAIN
 ||dns.nextdns.io^$dnsrewrite=NXDOMAIN
+||steering.nextdns.io^$dnsrewrite=NXDOMAIN
 ||dns.oszx.co^$dnsrewrite=NXDOMAIN
 ||dns.pub^$dnsrewrite=NXDOMAIN
 ||dns.pumplex.com^$dnsrewrite=NXDOMAIN
