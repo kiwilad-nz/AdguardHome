@@ -1,3 +1,9 @@
+# Allowed DNS for Upstream
+#
+# Cloudflare
+# NextDNS
+# Quad9
+#
 ## DNS NXDOMAIN for DOH/QUIC
 ||a.family.ns.dnslify.com^$dnsrewrite=NXDOMAIN
 ||a.ns.dnslify.com^$dnsrewrite=NXDOMAIN
