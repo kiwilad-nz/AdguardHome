@@ -22,7 +22,6 @@
 ||dandelionsprout.asuscomm.com^$dnsrewrite=NXDOMAIN
 ||dns-doh.dnsforfamily.com^$dnsrewrite=NXDOMAIN
 ||dns-dot.dnsforfamily.com^$dnsrewrite=NXDOMAIN
-||dns-family.adguard.com^$dnsrewrite=NXDOMAIN
 ||dns-nosec.quad9.net^$dnsrewrite=NXDOMAIN
 ||dns-nyc.aaflalo.me^$dnsrewrite=NXDOMAIN
 ||dns-tls.bitwiseshift.net^$dnsrewrite=NXDOMAIN
@@ -37,8 +36,6 @@
 ||dns.233py.com^$dnsrewrite=NXDOMAIN
 ||dns.aa.net.uk^$dnsrewrite=NXDOMAIN
 ||dns.aaflalo.me^$dnsrewrite=NXDOMAIN
-||dns.adguard-dns.com^$dnsrewrite=NXDOMAIN
-||dns.adguard.com^$dnsrewrite=NXDOMAIN
 ||dns.alekberg.net^$dnsrewrite=NXDOMAIN
 ||dns.alidns.com^$dnsrewrite=NXDOMAIN
 ||dns.arapurayil.com^$dnsrewrite=NXDOMAIN
