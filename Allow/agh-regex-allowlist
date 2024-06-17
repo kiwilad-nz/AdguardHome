@@ -1,8 +1,6 @@
 # New Zealand & Australian Domains
-# This rule will allow only primary domains or www subdomains of the specified country TLD (exluding popular search engines that cater for enforcing safe search)
-/^(www\.)?(?!google\.|bing\.|yahoo\.|duckduckgo\.|baidu\.|yandex\.|ask\.)([\w\d\-]+)(\.(co|org|gov|govt|ac|net|com))?\.nz$|^(www\.)?(?!google\.|bing\.|yahoo\.|duckduckgo\.|baidu\.|yandex\.|ask\.)([\w\d\-]+)(\.(co|org|gov|govt|ac|net|com))?\.au$/
-#/(www\.|^)[\w\d\-]*(\.(co|org|gov|govt|ac|net|com))?\.(nz|au)$/
-
+# This rule will allow only primary domains or www subdomains of the specified country TLD
+/(www\.|^)[\w\d\-]*(\.(co|org|gov|govt|ac|net|com))?\.(nz|au)$/
 
 ## Mail Domains
 # This rule will allow anything ending with the keyword in the domain allowing for a trailing 1-3 digits (restricted to 2-3 letter TLD)
