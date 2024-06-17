@@ -1,6 +1,6 @@
 # New Zealand & Australian Domains
 # This rule will allow only primary domains or www subdomains of the specified country TLD (exluding popular search engines that cater for enforcing safe search)
-/^(?!.*\b(google|bing|yahoo|duckduckgo|baidu|yandex|ask)\.)(www\.|^)[\w\d\-]*(\.(co|org|gov|govt|ac|net|com))?\.(nz|au)$/
+/^(www\.)?[\w\d\-]+(\.(co|org|gov|govt|ac|net|com))?\.((?!google|bing|yahoo|duckduckgo|baidu|yandex|ask)[\w\d\-]+)\.(nz|au)$/
 #/(www\.|^)[\w\d\-]*(\.(co|org|gov|govt|ac|net|com))?\.(nz|au)$/
 
 
