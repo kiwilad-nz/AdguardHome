@@ -1,9 +1,9 @@
 ## TLD
-@@||arpa^
-@@||gov^
+@@||arpa^$important
+@@||gov^$important
 
 ## SLD
-@@||govt.nz^
-@@||gov.nz^
-@@||govt.au^
-@@||gov.au^
+@@||govt.nz^$important
+@@||gov.nz^$important
+@@||govt.au^$important
+@@||gov.au^$important

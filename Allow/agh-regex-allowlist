@@ -1,5 +1,5 @@
 ## Gov/Govt Domains
-/.*\.gov(t)?(\.[a-z]{2,4})?$/
+/.*\.gov(t)?(\.[a-z]{2,4})?$/$important
 
 ## Mail Domains
 # This rule will allow anything ending with the keyword in the domain allowing for a trailing 1-3 digits (restricted to 2-3 letter TLD)
