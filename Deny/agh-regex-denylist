@@ -36,4 +36,4 @@
 /(lgbt|gay|lesbian|bisexual|transgender|queer|pansexual|nonbinary|genderqueer|genderfluid|intersex|asexual|agender|bigender|two-spirit|pride|rainbow|dragqueen|dragking|transvestite|genderdysphoria|genderidentity|genderexpression|gendertransition|misgender|deadnaming|comingout|genderfuck|homophobia|transphobia)/
 
 ## Gambling
-/gamble|gambling|casino|poker|roulette|slot(?:s|machine)?|baccarat|blackjack|lottery|sweepstake(?:s)?|bingo|jackpot|wager(?:ing)?|stake|sportsbook|sportsbetting|bookie|parlay|propbet)/
+/(gamble|gambling|casino|poker|roulette|slot(?:s|machine)?|baccarat|blackjack|jackpot|lottery|sweepstake(?:s)?|bingo|jackpot|wager(?:ing)?|stake|sportsbook|sportsbetting|bookie|parlay|propbet)/
