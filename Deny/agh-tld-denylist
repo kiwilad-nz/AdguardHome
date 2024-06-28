@@ -1,5 +1,5 @@
 ## TLD
-# Commended TLD are allowed to reduce false positives
+# Commented TLD are allowed to reduce false positives
 ||aaa^
 ||aarp^
 ||abarth^
@@ -56,7 +56,7 @@
 ||analytics^
 ||android^
 ||anquan^
-||anz^
+#||anz^
 #||ao^
 ||aol^
 ||apartments^
@@ -81,9 +81,9 @@
 ||attorney^
 #||au^
 ||auction^
-||audi^
+#||audi^
 ||audible^
-||audio^
+#||audio^
 ||auspost^
 ||author^
 ||auto^
@@ -159,8 +159,8 @@
 ||bom^
 ||bond^
 ||boo^
-||book^
-||booking^
+#||book^
+#||booking^
 ||bosch^
 ||bostik^
 ||boston^
@@ -320,7 +320,7 @@
 ||deal^
 ||dealer^
 ||deals^
-||degree^
+#||degree^
 ||delivery^
 ||dell^
 ||deloitte^
@@ -391,7 +391,7 @@
 ||eus^
 #||events^
 #||exchange^
-||expert^
+#||expert^
 ||exposed^
 ||express^
 ||extraspace^
@@ -408,7 +408,7 @@
 ||fast^
 ||fedex^
 ||feedback^
-||ferrari^
+#||ferrari^
 ||ferrero^
 ||fi^
 ||fiat^
@@ -417,7 +417,7 @@
 ||film^
 ||final^
 #||finance^
-||financial^
+#||financial^
 ||fire^
 ||firestone^
 ||firmdale^
@@ -576,11 +576,11 @@
 ||hu^
 ||hughes^
 ||hyatt^
-||hyundai^
+#||hyundai^
 ||ibm^
 ||icbc^
 ||ice^
-||icu^
+#||icu^
 #||id^
 #||ie^
 ||ieee^
@@ -618,7 +618,7 @@
 #||it^
 ||itau^
 ||itv^
-||jaguar^
+#||jaguar^
 ||java^
 ||jcb^
 ||je^
@@ -675,7 +675,7 @@
 ||kz^
 #||la^
 ||lacaixa^
-||lamborghini^
+#||lamborghini^
 ||lamer^
 ||lancaster^
 ||lancia^
@@ -701,7 +701,7 @@
 ||li^
 ||lidl^
 #||life^
-||lifeinsurance^
+#||lifeinsurance^
 ||lifestyle^
 ||lighting^
 ||like^
@@ -747,9 +747,9 @@
 ||management^
 ||mango^
 ||map^
-||market^
-||marketing^
-||markets^
+#||market^
+#||marketing^
+#||markets^
 ||marriott^
 ||marshalls^
 ||maserati^
@@ -762,9 +762,9 @@
 ||med^
 #||media^
 ||meet^
-||melbourne^
+#||melbourne^
 #||meme^
-||memorial^
+#||memorial^
 ||men^
 #||menu^
 ||merckmsd^
@@ -776,7 +776,7 @@
 ||mini^
 ||mint^
 ||mit^
-||mitsubishi^
+#||mitsubishi^
 ||mk^
 ||ml^
 ||mlb^
@@ -793,9 +793,9 @@
 ||mom^
 ||monash^
 ||money^
-||monster^
+#||monster^
 ||mormon^
-||mortgage^
+#||mortgage^
 ||moscow^
 ||moto^
 ||motorcycles^
@@ -845,10 +845,10 @@
 ||nhk^
 ||ni^
 ||nico^
-||nike^
+#||nike^
 ||nikon^
 ||ninja^
-||nissan^
+#||nissan^
 ||nissay^
 #||nl^
 ||no^
@@ -876,16 +876,16 @@
 ||ollo^
 ||om^
 ||omega^
-||one^
+#||one^
 ||ong^
 ||onl^
 #||online^
 ||ooo^
-||open^
+#||open^
 ||oracle^
 ||orange^
 #||org^
-||organic^
+#||organic^
 ||origins^
 ||osaka^
 ||otsuka^
@@ -893,7 +893,7 @@
 ||ovh^
 ||pa^
 #||page^
-||panasonic^
+#||panasonic^
 ||paris^
 ||pars^
 ||partners^
@@ -910,7 +910,7 @@
 #||ph^
 #||pharmacy^
 ||phd^
-||philips^
+#||philips^
 ||phone^
 #||photo^
 #||photography^
@@ -923,13 +923,13 @@
 ||pin^
 ||ping^
 ||pink^
-||pioneer^
+#||pioneer^
 ||pizza^
 ||pk^
 #||pl^
 ||place^
 #||play^
-||playstation^
+#||playstation^
 ||plumbing^
 #||plus^
 #||pm^
@@ -970,9 +970,9 @@
 #||radio^
 ||re^
 #||read^
-||realestate^
-||realtor^
-||realty^
+#||realestate^
+#||realtor^
+#||realty^
 #||recipes^
 ||red^
 ||redstone^
@@ -989,7 +989,7 @@
 #||report^
 ||republican^
 ||rest^
-||restaurant^
+#||restaurant^
 #||review^
 #||reviews^
 ||rexroth^
@@ -1006,7 +1006,7 @@
 ||rogers^
 ||room^
 ||rs^
-||rsvp^
+#||rsvp^
 #||ru^
 #||rugby^
 ||ruhr^
@@ -1022,7 +1022,7 @@
 #||sale^
 ||salon^
 ||samsclub^
-||samsung^
+#||samsung^
 ||sandvik^
 ||sandvikcoromant^
 ||sanofi^
@@ -1099,7 +1099,7 @@
 ||software^
 ||sohu^
 ||solar^
-||solutions^
+#||solutions^
 ||song^
 ||sony^
 ||soy^
@@ -1194,7 +1194,7 @@
 ||total^
 ||tours^
 ||town^
-||toyota^
+#||toyota^
 ||toys^
 ||tr^
 #||trade^
@@ -1256,8 +1256,8 @@
 ||vlaanderen^
 ||vn^
 ||vodka^
-||volkswagen^
-||volvo^
+#||volkswagen^
+#||volvo^
 ||vote^
 ||voting^
 ||voto^
