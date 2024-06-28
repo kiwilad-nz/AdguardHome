@@ -25,3 +25,9 @@
 
 ## DNS-SD
 /^lb\.\_dns\-sd\.\_udp\./
+
+## Malicious
+/(malwares?|phish(?:ing)?|virus(?:es)?|trojans?|spywares?|ransomwares?|keyloggers?|rootkits?|exploits?|adwares?|botnets?|scams?|frauds?|phishes?|hack(?:ing)?|infected|backdoors?|malicious)/
+
+## Porn / Dating / Gambling / LGBTQ+
+/(porn(?:ographic|o)?|xxx|sex(?:ual|s)?|erotic|nude|fetish|kink|bdsm|hardcore|softcore|hentai|hooker|escort|cam(?:girl|boy|site)?|live(?:cam|sex)?|dating|hookup|tinder|grindr|bumble|okcupid|sugar(?:baby|daddy)?|flirt|gambling?|casino|bet(?:ting|s)?|poker|roulette|slot(?:s|machine)?|baccarat|blackjack|lottery|sweepstake(?:s)?|bingo|jackpot|wager(?:ing)?|stake|sportsbook|sportsbetting|bookie|parlay|propbet|lgbtq|lgbt(?:qia)?)/
