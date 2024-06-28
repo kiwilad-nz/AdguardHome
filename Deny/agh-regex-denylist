@@ -1,7 +1,7 @@
 ## Punycode
 /(xn--)/
 
-## Ads
+## Ads and Tracking
 /^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]/
 /^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]/
 /^adim(age|g)s?[0-9]*[_.-]/
@@ -10,8 +10,10 @@
 /^mads\./
 /^adchoice./
 /^adsdk./
+/^pixels?[-.]/
+/^adtrack(er|ing)?[0-9]*[_.-]/
 
-## Telemetry
+## Telemetry and Analytics
 /^(.+[_.-])?telemetry[_.-]/
 /^analytics?[_.-]/
 /^banners?[_.-]/
@@ -19,21 +21,17 @@
 /^stat(s|istics)?[0-9]*[_.-]/
 /^count(ers?)?[0-9]*[_.-]/
 
-## Tracking
-/^pixels?[-.]/
-/^adtrack(er|ing)?[0-9]*[_.-]/
-
 ## DNS-SD
 /^lb\.\_dns\-sd\.\_udp\./
 
 ## Malicious
-/(malware|phish|virus|trojan|spyware|ransomware|keylog|rootkit|exploit|adware|botnet|scam|fraud|hack|infected|backdoors|malicious)/
+/(malware|phish|virus|trojan|spyware|ransomware|keylog|rootkit|exploit|adware|botnet|scam|fraud|hack|infected|backdoor|malicious)/
 
-## Porn & Dating
-/(porn|xxx|erotic|nude|fetish|kink|bdsm|hardcore|softcore|hentai|hooker|escort|cam(?:girl|boy|site)|live(?:cam|sex)|dating|hookup|tinder|grindr|bumble|okcupid|sugar(?:baby|daddy)|flirt)/
+## Porn and Dating
+/(porn|xxx|erotic|nude|fetish|kink|bdsm|hardcore|softcore|hentai|hooker|escort|cam(?:girl|boy|site)|live(?:cam|sex)|dating|hookup|tinder|grindr|bumble|okcupid|sugar(?:baby|daddy|mumma)|flirt)/
 
 ## LGBTQ+
-/(lgbt|gay|lesbian|bisexual|transgender|queer|pansexual|nonbinary|genderqueer|genderfluid|intersex|asexual|agender|bigender|two-spirit|pride|rainbow|dragqueen|dragking|transvestite|genderdysphoria|genderidentity|genderexpression|gendertransition|misgender|deadnaming|comingout|genderfuck|homophobia|transphobia)/
+/(lgbt|gay|lesbian|bisexual|transgender|queer|pansexual|nonbinary|genderqueer|genderfluid|intersex|asexual|agender|bigender|rainbow|dragqueen|dragking|tranny|transvestite|genderdysphoria|genderidentity|genderexpression|gendertransition|misgender|deadnaming|comingout|genderfuck|homophobia|transphobia)/
 
 ## Gambling
-/(gamble|gambling|casino|poker|roulette|slot(?:s|machine)|baccarat|blackjack|lottery|sweepstake(?:s)?|bingo|jackpot|wager(?:ing)?|stake|sportsbook|sportsbetting|bookie|parlay|propbet)/
+/(gamble|gambling|casino|poker|roulette|slot(?:s|machine)|baccarat|blackjack|lottery|sweepstake|bingo|jackpot|sportsbook|betting|bookie|parlay|propbet)/
