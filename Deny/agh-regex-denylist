@@ -30,7 +30,7 @@
 /(malware|phish|virus|trojan|spyware|ransomware|keylog|rootkit|exploit|adware|botnet|scam|fraud|hack|infected|backdoors|malicious)/
 
 ## Porn & Dating
-/(porn|xxx|erotic|nude|fetish|kink|bdsm|hardcore|softcore|hentai|hooker|escort|cam(?:girl|boy|site)?|live(?:cam|sex)?|dating|hookup|tinder|grindr|bumble|okcupid|sugar(?:baby|daddy)?|flirt)/
+/(porn|xxx|erotic|nude|fetish|kink|bdsm|hardcore|softcore|hentai|hooker|escort|cam(?:girl|boy|site)|live(?:cam|sex)|dating|hookup|tinder|grindr|bumble|okcupid|sugar(?:baby|daddy)|flirt)/
 
 ## LGBTQ+
 /(lgbt|gay|lesbian|bisexual|transgender|queer|pansexual|nonbinary|genderqueer|genderfluid|intersex|asexual|agender|bigender|two-spirit|pride|rainbow|dragqueen|dragking|transvestite|genderdysphoria|genderidentity|genderexpression|gendertransition|misgender|deadnaming|comingout|genderfuck|homophobia|transphobia)/
