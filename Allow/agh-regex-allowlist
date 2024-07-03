@@ -1,42 +1,30 @@
 ## Gov/Govt Domains
-/.*\.gov(t)?(\.[a-z]{2,5})?$/
+# will match domains that end with ".gov" or ".govt" and optionally those that have a two to five-letter TLD after ".gov" or ".govt" (e.g., ".gov.uk", ".gov.au")
+/.*\.gov(|t)(\.[a-z]{2,5})?$/
 
 ## Mail Domains
-# This rule will allow anything ending with the keyword in the domain allowing for a trailing 1-3 digits (restricted to 2-3 letter TLD)
+# will match domains ending with the keyword in the domain matching for a trailing 1-3 digits (restricted to 2-3 letter TLD)
 /.*mail(|s)\-?[\d]{0,3}(\.(co|org|gov|govt|ac|net|com))?\.[\w]{2,3}$/
-# This rule will allow a leading 1-3 character word or digit or literally anything so long as it also has a "." or "-" at the beginning of the keyword and/or will allow for literally anything following the keyword (restricted to 2+ letter TLD)
+# will match domains with a leading 1-3 character word or digit or literally anything so long as it also has a "." or "-" at the beginning of the keyword and/or will match for literally anything following the keyword (restricted to 2+ letter TLD)
 /(.*(\.|\-))*[\w\d]{0,3}mail.*\.[\w]{2,}$/
 
 ## Links, Redirectors and Tracking Domains
-# This rule will allow anything ending with the keyword in the domain allowing for a trailing 1-3 digits (restricted to 2-3 letter TLD)
+# will match domains ending with the keyword in the domain matching for a trailing 1-3 digits (restricted to 2-3 letter TLD)
 /.*(link(|s)|redirect(|s|or)|track(|er|ing))\-?[\d]{0,3}(\.(co|org|gov|govt|ac|net|com))?\.[\w]{2,3}$/
-# This rule will allow a leading/trailing 1-3 digit or literally anything so long as it also has a "." or "-" at the beginning or end of the keyword (restricted to 2+ letter TLD)
+# will match domains with a leading/trailing 1-3 digit or literally anything so long as it also has a "." or "-" at the beginning or end of the keyword (restricted to 2+ letter TLD)
 /(.*(\.|\-))*[\d]{0,3}(link(|s)|redirect(|s|or)|track(|er|ing))[\d]{0,3}((\.|\-).*)*\.[\w]{2,}$/
 
 ## Image Domains
-# This rule will allow anything ending with the keyword in the domain allowing for a trailing 1-3 digits (restricted to 2-3 letter TLD)
+# will match domains ending with the keyword in the domain matching for a trailing 1-3 digits (restricted to 2-3 letter TLD)
 /.*(image(|s)|img(|s))\-?[\d]{0,3}(\.(co|org|gov|govt|ac|net|com))?\.[\w]{2,3}$/
-# This rule will allow a leading/trailing 1-3 digit or literally anything so long as it also has a "." or "-" at the beginning or end of the keyword (restricted to 2+ letter TLD)
+# will match domains with a leading/trailing 1-3 digit or literally anything so long as it also has a "." or "-" at the beginning or end of the keyword (restricted to 2+ letter TLD)
 /(.*(\.|\-))*[\d]{0,3}(image(|s)|img(|s))[\d]{0,3}((\.|\-).*)*\.[\w]{2,}$/
 
-## Blog/Forum/Community/Board Domains
-# This rule will allow anything ending with the keyword in the domain (restricted to 2-3 letter TLD)
-/.*(blog(|s)|forum(|s)|communit(y|ies)|board(|s))\-?[\d]{0,3}(\.(co|org|gov|govt|ac|net|com))?\.[\w]{2,3}$/
-# This rule will allow a leading/trailing 1-3 digit or literally anything so long as it also has a "." or "-" at the beginning or end of the keyword (restricted to 2+ letter TLD)
-/(.*(\.|\-))*[\d]{0,3}(blog(|s)|forum(|s)|communit(y|ies)|board(|s))[\d]{0,3}((\.|\-).*)*\.[\w]{2,}$/
+## Other Common Supportive Domains
+# will match domains ending with the keyword in the domain (restricted to 2-3 letter TLD)
+/.*(blog(|s)|forum(|s)|communit(y|ies)|board(|s)|portal(|s)|platform(|s)|service(|s)|resource(|s)|network(|s)|director(y|ies)|guide(|s)|wiki|help|support|doc(|s)|news|update(|s)|knowledgebase(|s))\-?[\d]{0,3}(\.(co|org|gov|govt|ac|net|com))?\.[\w]{2,3}$/
+# will match domains with a leading/trailing 1-3 digit or literally anything so long as it also has a "." or "-" at the beginning or end of the keyword (restricted to 2+ letter TLD)
+/(.*(\.|\-))*[\d]{0,3}(blog(|s)|forum(|s)|communit(y|ies)|board(|s)|portal(|s)|platform(|s)|service(|s)|resource(|s)|network(|s)|director(y|ies)|guide(|s)|wiki(|s)|help|support|doc(|s)|news|update(|s)|knowledgebase(|s))[\d]{0,3}((\.|\-).*)*\.[\w]{2,}$/
 
 ## Mobile and Tablets
 /^m\.(hotmail|reddit|twitch|yahoo|youtube)\.(com|tv)$/
-
-## Microsoft OneDrive, Azure, Windows Esentials updates, other, xboxlive (required for saves to the cloud)
-#/(www\.|^)((go\.|)microsoft|windows)\.com$/
-#/(\.|^)1drv\.ms$/
-#/(\.|^)windowsupdate\.com$/
-#/^(attestation|cert\.mgt|def-vef|(device(|\.auth))|eds|help\.ui|licensing|notify|title(|\.(auth|mgt))|user|xflight|www|xboxexperiencesprod/\.experimentation|xkms|xsts\.auth)\.xboxlive\.com$/
-#/^(csp|c\.s|devicelistenerprod)(-|\.)microsoft\.com$/
-#/^(edge|fs|mobile\.pipe\.aria|msedge\.api.\cdp|officecdnmac|officeclient|support|teams|vlscppe|whiteboard|www)\.microsoft\.com$/
-#/^(settings|v10\.vortex)-win\.data\.microsoft\.com$/
-#/^europe.(cp\.wd|smartscreen(-prod|))\.microsoft\.com$/
-#/^microsoft(|online)\.com$/
-#/^outlook\.(live|office(|365))\.com$/
-#/^v[0-2]+?\.events\.data\.microsoft\.com$/
