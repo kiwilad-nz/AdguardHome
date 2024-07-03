@@ -28,7 +28,7 @@
 /(malware|phish|virus|trojan|spyware|ransomware|keylog|rootkit|exploit|adware|botnet|scam|fraud|hack|infected|backdoor|worm|cyberattack|credential|infostealer|darkweb|malicious|suspicious)/
 
 ## Porn and Dating
-/(porn|xxx|sex|erotic|nude|fetish|kink|bdsm|anal|bbw|incest|hardcore|softcore|swinger|threesome|hentai|hooker|escort|cam(?:girl|boy|site)|live(?:cam|sex)|dating|hookup|tinder|grindr|bumble|okcupid|sugar(?:baby|daddy|mumma)|milf|cuckold|hotwife|flirt)/
+/(porn|xxx|sex|erotic|nude|fetish|kink|bdsm|anal|bbw|incest|hardcore|softcore|swinger|threesome|hentai|hooker|escort|cam(?:girl|boy|site)|live(?:cam|sex)|dating|hookup|grindr|okcupid|sugar(?:baby|daddy|mumma)|milf|cuckold|hotwife|flirt)/
 
 ## LGBTQ+
 /(lgbt|gay|lesbian|bisexual|trans|transgender|queer|pansexual|nonbinary|genderqueer|genderfluid|intersex|asexual|agender|bigender|rainbow|dragqueen|dragking|tranny|transvestite|genderdysphoria|genderidentity|genderexpression|gendertransition|misgender|deadnaming|comingout|genderfuck|homophobia|transphobia)/
