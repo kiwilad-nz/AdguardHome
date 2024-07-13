@@ -1,3 +1,4 @@
+# Excludes "www.bing.com" to ensure Safesearch functionality
 @@|*-ring-fallback.msedge.net^
 @@|*-ring.msedge.net^
 @@|*.*.onedrive.live.com^
@@ -530,7 +531,6 @@
 @@|wus-streaming-video-rt-microsoft-com.akamaized.net^
 @@|wus-www.sway-cdn.com^
 @@|wus2.gssv-play-prodxhome.xboxlive.com^
-@@|www.bing.com^
 @@|www.clarity.ms^
 @@|www.microsoft.com^
 @@|www.msftconnecttest.com*^
