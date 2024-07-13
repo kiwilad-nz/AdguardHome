@@ -1,0 +1,206 @@
+filters:
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Deny/regex-denylist
+    name: KiwiLAD (REGEX DENY)
+    id: 0000000001
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Deny/secure-dns-denylist
+    name: KiwiLAD (DESCURE DNS DENY)
+    id: 0000000002
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Deny/tld-denylist
+    name: KiwiLAD (TLD DENY)
+    id: 0000000003
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Deny/Modules/personal-hosts-denylist
+    name: KiwiLAD (PERSONAL DENY)
+    id: 0000000004
+whitelist_filters:
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/regex-allowlist
+    name: KiwiLAD (REGEX ALLOW)
+    id: 0000000005
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/tld-allowlist
+    name: KiwiLAD (TLD ALLOW)
+    id: 0000000006
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/adult-allowlist
+    name: KiwiLAD (ADULT ALLOW)
+    id: 0000000007
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/ai-allowlist
+    name: KiwiLAD (AI ALLOW)
+    id: 0000000008
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/amazon-allowlist
+    name: KiwiLAD (AMAZON ALLOW)
+    id: 0000000009
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/amd-allowlist
+    name: KiwiLAD (AMD ALLOW)
+    id: 0000000010
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/apple-allowlist
+    name: KiwiLAD (APPLE ALLOW)
+    id: 0000000011
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/brave-allowlist
+    name: KiwiLAD (BRAVE ALLOW)
+    id: 0000000012
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/cloud-storage-allowlist
+    name: KiwiLAD (CLOUD STORAGE ALLOW)
+    id: 0000000013
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/coding-allowlist
+    name: KiwiLAD (CODING ALLOW)
+    id: 0000000014
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/dictionaries-allowlist
+    name: KiwiLAD (DICTIONARIES ALLOW)
+    id: 0000000015
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/discord-allowlist
+    name: KiwiLAD (DISCORD ALLOW)
+    id: 0000000016
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/dropbox-allowlist
+    name: KiwiLAD (DROPBOX ALLLOW)
+    id: 0000000017
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/e-commerce-allowlist
+    name: KiwiLAD (E-COMMERCE ALLOW)
+    id: 0000000018
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/educational-institutions-allowlist
+    name: KiwiLAD (EDUCATIONAL INSTITUTIONS ALLOW)
+    id: 0000000019
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/evernote-allowlist
+    name: KiwiLAD (EVERNOTE ALLOW)
+    id: 0000000020
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/games-allowlist
+    name: KiwiLAD (GAMES ALLOW)
+    id: 0000000021
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/google-allowlist
+    name: KiwiLAD (GOOGLE ALLOW)
+    id: 0000000022
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/government-services-allowlost
+    name: KiwiLAD (GOVERNMENT SERVICES ALLOW)
+    id: 0000000023
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/intel-allowlist
+    name: KiwiLAD (INTEL ALLOW)
+    id: 0000000024
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/jdownloader-allowlist
+    name: KiwiLAD (JDOWNLOADER ALLOW)
+    id: 0000000025
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/linux-allowlist
+    name: KiwiLAD (LINUX ALLOW)
+    id: 0000000026
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/media-allowlist
+    name: KiwiLAD (MEDIA ALLOW)
+    id: 0000000027
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/microsoft-allowlist
+    name: KiwiLAD (MICROSOFT ALLOW)
+    id: 0000000028
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/mozilla-allowlist
+    name: KiwiLAD (MOZILLA ALLOW)
+    id: 0000000029
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/news-allowlist
+    name: KiwiLAD (NEWS ALLOW)
+    id: 0000000030
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/norton-allowlist
+    name: KiwiLAD (NORTON ALLOW)
+    id: 0000000031
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/nvidia-allowlist
+    name: KiwiLAD (NVIDIA ALLOW)
+    id: 0000000032
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/opera-allowlist
+    name: KiwiLAD (OPERA ALLOW)
+    id: 0000000033
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/password-managers-allowlist
+    name: KiwiLAD (PASSWORD MANAGERS ALLOW)
+    id: 0000000034
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/payment-providers-allowlist
+    name: KiwiLAD (PAYMENT PROVIDERS ALLOW)
+    id: 0000000035
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/razer-allowlist
+    name: KiwiLAD (RAZER ALLOW)
+    id: 0000000036
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/redirectors-allowlist
+    name: KiwiLAD (REDIRECTORS ALLOW)
+    id: 0000000037
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/referral-allowlist
+    name: KiwiLAD (REFERRAL ALLOW)
+    id: 0000000038
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/remote-access-allowlist
+    name: KiwiLAD (REMOTE ACCESS ALLOW)
+    id: 0000000039
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/samsung-allowlist
+    name: KiwiLAD (SAMSUNG ALLOW)
+    id: 0000000040
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/security-allowlist
+    name: KiwiLAD (SECURITY ALLOW)
+    id: 0000000041
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/shopping-allowlist
+    name: KiwiLAD (SHOPPING ALLOW)
+    id: 0000000042
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/social-media-allowlist
+    name: KiwiLAD (SOCIAL MEDIA ALLOW)
+    id: 0000000043
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/sony-allowlist
+    name: KiwiLAD (SONY ALLOW)
+    id: 0000000044
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/soundcloud-allowlist
+    name: KiwiLAD (SOUNDCLOUD ALLOW)
+    id: 0000000045
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/standardnotes-allowlist
+    name: KiwiLAD (STANDARD NOTES ALLOW)
+    id: 0000000046
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/thirdparty-hosts-allowlist
+    name: KiwiLAD (THIRDPARTY HOSTS ALLOW)
+    id: 0000000047
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/torrent-allowlist
+    name: KiwiLAD (TORRENT ALLOW)
+    id: 0000000048
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/usenet-allowlist
+    name: KiwiLAD (USENET ALLOW)
+    id: 0000000049
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/video-allowlist
+    name: KiwiLAD (VIDEO ALLOW)
+    id: 0000000050
+  - enabled: true
+    url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/wiki-allowlist
+	name: KiwiLAD (WIKI ALLOW)
+    id: 0000000051
