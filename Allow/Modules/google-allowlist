@@ -1,3 +1,5 @@
+# Excludes "www.google.com" to ensure Safesearch functionality
+##|google.com^
 @@|*.googlevideo.com^
 @@|*.gvt1.com^
 @@|*.ytimg.com^
@@ -179,7 +181,6 @@
 @@|vr.google.com^
 @@|waa-pa.clients6.google.com^
 @@|workspace.google.com^
-@@|www.google.com^
 @@|www.gstatic.com^
 @@|www.youtube.com^
 @@|yimg.com^
