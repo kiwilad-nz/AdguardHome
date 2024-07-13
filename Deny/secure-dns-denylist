@@ -1,4 +1,4 @@
-## DNS NXDOMAIN for DOH/QUIC
+# NXDOMAIN for DOH/DOT/QUIC
 ||a.family.ns.dnslify.com^$dnsrewrite=NXDOMAIN
 ||a.ns.dnslify.com^$dnsrewrite=NXDOMAIN
 ||a.safe.ns.dnslify.com^$dnsrewrite=NXDOMAIN
