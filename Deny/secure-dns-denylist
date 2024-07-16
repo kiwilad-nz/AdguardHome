@@ -38,7 +38,7 @@
 ||dns.aa.net.uk^$dnsrewrite=NXDOMAIN
 ||dns.aaflalo.me^$dnsrewrite=NXDOMAIN
 ||dns.adguard-dns.com^$dnsrewrite=NXDOMAIN
-#||dns.adguard.com^$dnsrewrite=NXDOMAIN
+||dns.adguard.com^$dnsrewrite=NXDOMAIN
 ||dns.alekberg.net^$dnsrewrite=NXDOMAIN
 ||dns.alidns.com^$dnsrewrite=NXDOMAIN
 ||dns.arapurayil.com^$dnsrewrite=NXDOMAIN
