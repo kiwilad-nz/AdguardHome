@@ -5,7 +5,7 @@ filters:
     id: 0000000001
   - enabled: true
     url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Deny/secure-dns-denylist
-    name: KiwiLAD (DESCURE DNS DENY)
+    name: KiwiLAD (SECURE DNS DENY)
     id: 0000000002
   - enabled: true
     url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Deny/tld-denylist
@@ -202,5 +202,5 @@ whitelist_filters:
     id: 0000000050
   - enabled: true
     url: https://github.com/kiwilad-nz/AdguardHome/raw/main/Allow/Modules/wiki-allowlist
-	name: KiwiLAD (WIKI ALLOW)
+    name: KiwiLAD (WIKI ALLOW)
     id: 0000000051
